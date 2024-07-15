@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class KeyPage implements OnInit {
 
   glitch:string[]=[
-    "¨&($k",
-    "**&@",
-    "+_@*f",
-    "Hh *!",
-    "?:=y%",
+    "[_className=!]",
+    ".... . .-.. .-.. ---",
+    "console",
+    "E.C.C.O",
+    "TGFpbg==",
     "!!!!!",
     "arr[]",
     "string",
@@ -29,7 +29,7 @@ export class KeyPage implements OnInit {
   ngOnInit() {
     this.intervalId = setInterval(() => {
       this.randomGlitch = this.glitch[Math.floor(Math.random() * this.glitch.length)];
-    }, 10); 
+    }, 100); 
   }
 
   ngOnDestroy() {

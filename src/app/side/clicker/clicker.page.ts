@@ -9,7 +9,7 @@ export class ClickerPage implements OnInit {
 
   constructor() { }
   ngOnInit() { }
-  //isOpen: boolean = false
+
   closed:string = '../../../assets/door/doorClose.png'
   open:string ='../../../assets/door/doorOpen.png'
 
@@ -18,8 +18,6 @@ export class ClickerPage implements OnInit {
 
   lockClosed: string = 'lock-closed'
   lockOpen: string = 'lock-open'
-
-  //public alertButtons = ['OK'];
 
   public alertButtons = [
     {
@@ -40,16 +38,13 @@ export class ClickerPage implements OnInit {
 
   checkPass(password: string) {
     console.log('iniciando')
-    if (password === 's') {
+    if (password === '4-7897-1343-1' || '4789713431' || '4 7897 1343 1' || 'dev') {
       console.log('ok')
       this.closed = this.open
       this.routeClosed = this.routeOpen
       this.lockClosed = this.lockOpen
     } else {
       console.log('não ok...')
-
     }
   }
-
-
 }
