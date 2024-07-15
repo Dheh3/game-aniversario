@@ -1,0 +1,78 @@
+/* * {
+    //border: red solid 1px;
+    background-color: var(--ion-color-dark-tint);
+    --background: var(--ion-color-dark-tint);
+} */
+
+ion-content {
+    box-sizing: border-box;
+    --background: var(--ion-color-dark-tint);
+
+    ion-card {
+        //border: red solid 1px;
+        height: 60vh;
+        padding: 0;
+        margin: 0;
+        //background: transparent;
+        box-shadow: none;
+        border-radius: 0;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .white {
+
+        //background: var(--ion-color-primary);
+        h2{
+            font-size: 32px;
+            color: var(--ion-color-dark-contrast);
+        }
+        .alignbottom {
+            position: fixed;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+
+            .fireworks {
+                height: 50vh;
+                background-size: contain;
+                background-image: url(../../../assets/happy/fogos.gif);
+                opacity: 0.9;
+                background-repeat: repeat-x;
+                animation: pingan 120s linear infinite;
+            }
+
+            .pinguins {
+                background-color: var(--ion-color-dark-tint);
+                height: 20vh;
+                background-size: contain;
+                //background-color: blue ;
+                background-image: url(../../../assets/happy/penguin1.gif);
+                background-repeat: repeat-x;
+                animation: pingan 20s linear infinite;
+            }
+
+            .pinguins2 {
+                height: 10vh;
+                background-color: var(--ion-color-dark-tint);
+                background-size: contain;
+                background-image: url(../../../assets/happy/penguin2.gif);
+                background-repeat: repeat-x;
+                animation: pingan 20s linear infinite;
+            }
+        }
+    }
+}
+
+
+@keyframes pingan {
+    from {
+        background-position-x: 341px;
+    }
+
+    to {
+        background-position-x: -341px;
+    }
+}

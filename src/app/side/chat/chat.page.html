@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-title class="ion-text-center ion-padding" id="title">--SKIN--</ion-title>
+
+  <ion-card class="anima" (click)="getRandom()">
+    <img [src]="img">
+  </ion-card>
+
+  <swiper-container class="ion-text-center" pagination-dynamic-bullets="true" slides-per-view="2" effect="slide" loop="true">
+    <swiper-slide *ngFor="let cosmetic of cosmetics">
+      <ion-card class="ion-padding" (click)="changeOutfit(cosmetic.img)">
+        <img [src]="cosmetic.img">
+        <p>
+          {{ cosmetic.name }}
+        </p>
+      </ion-card>
+    </swiper-slide>
+  </swiper-container>
+
+</ion-content>

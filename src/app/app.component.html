@@ -1,3 +1,31 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <ion-menu side="start" menuId="first" contentId="main" swipeGesture="false">
+
+    <ion-content >
+      <ion-menu-toggle>
+        <ion-list>
+
+          <ion-card class="ion-padding" routerLink="/games">
+            <h1><ion-icon size="large" name="game-controller"></ion-icon> Games</h1>
+          </ion-card>
+
+          <ion-card class="ion-padding" routerLink="/chat">
+            <h1><ion-icon size="large" name="body"></ion-icon>  skin</h1>
+          </ion-card>
+
+          <ion-card class="ion-padding" routerLink="/help">
+            <h1><ion-icon size="large" name="help-circle"></ion-icon>  Ajuda</h1>
+          </ion-card>
+
+          <ion-card class="ion-padding" routerLink="/clicker">
+            <h1><ion-icon size="large" name="terminal"></ion-icon>  C$^**_-qw</h1>
+          </ion-card>
+
+        </ion-list>
+      </ion-menu-toggle>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>

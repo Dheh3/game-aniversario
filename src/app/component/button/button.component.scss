@@ -1,0 +1,24 @@
+
+ion-grid {
+    ion-row {
+        ion-col {
+            padding: 0;
+
+            p {
+                margin: 0;
+                letter-spacing: 2px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            ion-button{
+                padding: 0;
+                margin: 0;
+                --border-radius: 100%;
+            }
+            ion-icon{
+                padding: 20px;
+                font-size: 72px;
+            }
+        }
+    }
+}
+

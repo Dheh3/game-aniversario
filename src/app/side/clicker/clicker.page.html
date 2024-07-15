@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-card [routerLink]="routeClosed">
+    <img [src]="closed">
+  </ion-card>
+
+  <ion-grid class="button">
+    <ion-row>
+      <ion-col></ion-col>
+      <ion-col class="ion-text-center">
+        <ion-button id="present-alert">
+          <ion-icon slot="icon-only" [name]="lockClosed"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-alert
+  class="custom-alert ion-text-center"
+  trigger="present-alert"
+  header="Código da fechadura"
+  [buttons]="alertButtons"
+  [inputs]="alertInputs"
+></ion-alert>
+
+</ion-content>

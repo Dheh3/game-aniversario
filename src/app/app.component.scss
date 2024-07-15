@@ -1,0 +1,41 @@
+ion-menu {
+    --ion-background-color: transparent;
+    --ion-background-color-rgb: 0, 0, 0, 0;
+    box-shadow: none;
+    backdrop-filter: blur(3px);
+    ion-content {
+        --background: transparent;
+
+        ion-list {
+            background: transparent;
+
+            ion-card {
+                --background: var(--ion-color-primary);
+                color: var(--ion-color-medium-contrast);
+                border-radius: 25rem;
+                box-shadow: none;
+
+                h1 {
+                    margin: 10px 0 10px 0;
+
+                    ion-icon {
+                        color: var(--ion-color-primary-contrast);
+                        transform: translateY(6px);
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+ion-menu::part(backdrop) {
+    background-color: transparent;
+}
+
+ion-menu::part(container) {
+    
+
+    box-shadow:none;
+}

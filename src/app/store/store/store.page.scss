@@ -1,0 +1,36 @@
+ion-header {
+    box-shadow: none;
+    //border: red solid 1px;
+    
+}
+
+ion-content {
+    #title {
+        letter-spacing: 5px;
+        font-weight: 500;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    ion-grid {
+        ion-row {
+
+            //border: red 1px solid;
+            ion-col {
+                //border: red 1px solid;
+                border-bottom: black 10px solid;
+                
+
+                p {
+                    margin: 2px;
+                    color: var(--ion-color-medium-tint);
+                    letter-spacing: 1px;
+                }
+                #bla{
+                    color: var(--ion-color-dark);
+                }
+            }
+        }
+    }
+
+}

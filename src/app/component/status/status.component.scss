@@ -1,0 +1,33 @@
+.levels{
+    border-radius: 7px;
+    background: var(--ion-color-light-shade);
+    padding: 10px;
+}
+
+ion-grid {
+    ion-row {
+        ion-col {
+            //border: 1px solid red;
+            p{
+                margin: 0;
+            }
+            progress {
+                width: 100%;
+                background-color: var(--ion-color-dark);
+                border-radius: 7px;
+            }
+
+        }
+    }
+}
+
+progress::-webkit-progress-bar {
+    background-color: var(--ion-color-light-shade);
+    border: 1px solid var(--ion-color-dark);
+    border-radius: 7px;
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--ion-color-dark);
+    border-radius: 7px;
+}

@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <p class="ion-text-right"><ion-button size="large" shape="round" id="click-trigger"><ion-icon name="help-circle"></ion-icon></ion-button></p>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+  <ion-popover trigger="click-trigger" >
+    <ng-template>
+      <ion-content class="ion-padding">
+        Aqui você pode alimenta-la.<br>
+        Fique de olho na barra de fome, não deixe chegar a zero! <br>
+        Se não... (na verdade, não vai acontecer nada. Mas saiba que poderia... se quisesse...)
+      </ion-content>
+    </ng-template>
+  </ion-popover>
+
+  <ion-title class="ion-text-center ion-padding" id="title">RESTAURANTE</ion-title>
+
+  <img [src]="eating">
+  <app-status></app-status><br>
+
+  <ion-grid>
+    <ion-row class="ion-padding" >
+      <ion-col></ion-col>
+      <ion-col>
+        <ion-button color="light" class="ion-padding" (click)="feed()">
+          <ion-icon  slot="icon-only" name="fast-food"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

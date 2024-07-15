@@ -1,0 +1,72 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <app-coins></app-coins>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-title class="ion-text-center ion-padding" id="title">LOJA</ion-title>
+
+  <ion-grid class="ion-text-center ion-padding">
+    <ion-row>
+      <ion-col>
+        <ion-icon name="square" size="large" color="tertiary"></ion-icon><br>
+        <p>4 <ion-icon name="happy"></ion-icon></p>
+      </ion-col>
+      <!--==============================-->
+      <ion-col>
+        <ion-icon name="ellipse" size="large" color="tertiary"></ion-icon><br>
+        <p>3 <ion-icon name="caret-forward-circle" class="ion-text-center"></ion-icon></p>
+      </ion-col>
+      <!--==============================-->
+      <ion-col>
+        <ion-icon name="prism-outline" size="large" color="tertiary"></ion-icon><br>
+        <p>3 <ion-icon name="happy"></ion-icon></p>
+      </ion-col>
+    </ion-row>
+    
+    <br><br>
+
+    <ion-row>
+      <ion-col>
+        <ion-icon name="prism" size="large" color="tertiary"></ion-icon><br>
+        <p>9 <ion-icon name="happy"></ion-icon></p>
+      </ion-col>
+      <!--==============================-->
+      <ion-col ><!--chave-->
+        <ion-icon name="key" size="large" color="dark" (click)="removeCoins()"></ion-icon><br>
+        <p id="bla" (click)="removeCoins()" >100 <ion-icon name="happy" class="ion-text-center"></ion-icon></p>
+      </ion-col>
+      <!--==============================-->
+      <ion-col>
+        <ion-icon name="cube" size="large" color="tertiary"></ion-icon><br>
+        <p>16 <ion-icon name="happy"></ion-icon></p>
+      </ion-col>
+    </ion-row>
+    
+    <br><br>
+
+    <ion-row>
+      <ion-col>
+        <ion-icon name="radio-button-on-outline" size="large" color="tertiary"></ion-icon><br>
+        <p>6 <ion-icon name="happy"></ion-icon></p>
+      </ion-col>
+      <!--==============================-->
+      <ion-col>
+        <ion-icon name="cube-outline" size="large" color="tertiary"></ion-icon><br>
+        <p>16 <ion-icon name="happy" class="ion-text-center"></ion-icon></p>
+      </ion-col>
+      <!--==============================-->
+      <ion-col>
+        <ion-icon name="ellipse-outline" size="large" color="tertiary"></ion-icon><br>
+        <p>3 <ion-icon name="happy"></ion-icon></p>
+      </ion-col>
+    </ion-row>
+       
+  </ion-grid>
+
+</ion-content>

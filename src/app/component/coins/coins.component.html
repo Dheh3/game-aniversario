@@ -1,0 +1,10 @@
+<div id="tt">
+  <ion-chip>
+    <ion-icon name="happy" color="primary"></ion-icon>
+    <ion-label>{{coins}}</ion-label>
+  </ion-chip>
+  <ion-chip *ngIf="key != 0" routerLink="/key">
+    <ion-icon name="key" color="primary"></ion-icon>
+    <ion-label>{{key}}</ion-label>
+  </ion-chip>
+</div>

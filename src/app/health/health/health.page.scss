@@ -1,0 +1,132 @@
+ion-header {
+    box-shadow: none;
+    ion-toolbar {
+        --background: var(--ion-color-dark);
+        ion-back-button {
+            color: var(--ion-color-light);
+        }
+    }
+}
+ion-content {
+    --background: var(--ion-color-dark);
+    .sprite {
+        background: none;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        img {
+            filter: invert(100%) grayscale(100%);
+            animation: breath 10s ease 0s infinite normal forwards;
+        }
+        #dialogue {
+            font-weight: 800;
+            font-size: large;
+            padding: 0;
+            margin: 10px 0 0 10px;
+            letter-spacing: 2px;
+            animation: blink 10s ease 0s infinite normal forwards;
+        }
+    }
+    .sprite img.creepy {
+        filter: hue-rotate(113deg) contrast(145%) brightness(300%);
+    }
+    .dialogue-container {
+        text-align: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        div {
+            perspective: 200px;
+            ion-card {
+                background: var(--ion-color-light);
+                border-radius: 0 25rem 25rem 0;
+                transform: rotateX(0deg) rotateY(15deg);
+                transform-style: preserve-3d;
+                color: var(--ion-color-primary);
+                animation: myFade 3s ease 0s 1 normal backwards;
+                h3 {
+                    margin-left: 10px;
+                }
+            }
+            ion-card:nth-child(2n) {
+                background: var(--ion-color-primary);
+                color: var(--ion-color-primary-contrast);
+                border-radius: 25rem 0 0 25rem;
+                transform: rotateX(0deg) rotateY(345deg);
+                transform-style: preserve-3d;
+                h3 {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    ion-button {
+        margin: 10px;
+    }
+}
+.jumpscare-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ion-color-secondary);
+    animation: blinkJump 0.1s ease 0s infinite normal forwards;
+    img {
+        width: 100vw;
+        max-height: 100vh;
+        object-fit: cover;
+        filter: invert(100%) grayscale(100%);
+    }
+}
+ion-icon {
+    font-size: 64px;
+    padding: 10px;
+}
+@keyframes blink {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+        color: var(--ion-color-medium)-tint;
+    }
+    25%,
+    75% {
+        opacity: 0.8;
+        color: var(--ion-color-dark-tint);
+    }
+}
+@keyframes myFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes breath {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes blinkJump {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
