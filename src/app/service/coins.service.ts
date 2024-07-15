@@ -5,7 +5,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class CoinsService {
-  private coins = new BehaviorSubject<number>(10);
+  private coins = new BehaviorSubject<number>(100);
   currentCoins = this.coins.asObservable();
 
   private key = new BehaviorSubject<number>(0);
