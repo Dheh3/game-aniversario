@@ -1,30 +1,29 @@
 export const phrases = {
     win: [
-        'p-perdi...',
+        'Perdi...',
         'Hmmm...',
-        '...',
         '...',
         'ah...',
         'humpf!',
         'heeh...',
-        'T_T'
+        'huh...'
     ],
     lose: [
         'hehehe',
         'hihi',
-        'p-parece que alguem perdeu *pfff*',
+        'Parece que alguem perdeu.',
         '*pfff*',
-        'mais um ponto pra mim',
-        'você está jogando s-serio?'
+        'Ponto pra mim',
+        'Está jogando serio?'
     ],
     draw: [
-        'e-empate',
+        'Empate',
         'empate... vamos de novo',
         'um empate',
-        '...lembrar...'
+        'lembrar...'
     ],
-    gameEndWin: 'v-você ganhou...',
-    gameEndLose: 'v-venci?!',
+    gameEndWin: 'Você ganhou...',
+    gameEndLose: 'Venci?!',
     gameEndDraw: 'empatamos... mais uma?'
 };
 
@@ -38,7 +37,7 @@ export const phrases2 = {
     start: {
         text: 'Olá.',
         options: [
-            { text: 'O-oi...', next: 'askWho'},
+            { text: 'O-oi...', next: 'askWho' },
             { text: '*Silencio*', next: 'askWho' }
         ]
     },
@@ -220,6 +219,7 @@ export const phrases2 = {
             { text: '*Abrir*', next: 'start' }
         ]
     },
+    
     elaOpenEyes2: {
         text: 'ABRA OS OLHOS!',
         options: [

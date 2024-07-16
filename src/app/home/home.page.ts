@@ -9,17 +9,17 @@ import { CharacterStateService } from '../service/character-state.service';
 })
 export class HomePage {
 
-  img:string = '../../assets/spirtes/Neutral.png';
+  img: string = '../../assets/spirtes/Neutral.png';
 
   phrases: any[] = [
     "...",
-    "hmm...",
+    "hmm?",
     "zzz...",
-    "*Roonc*",
+    "Oi",
     "onde sera que deixei...",
     "*cof cof*",
     "19...20...21...",
-    "...o-ouviu isso?",
+    "Não me trate como uma maquina.",
   ];
 
   randomPhrase: string = this.phrases[Math.floor(Math.random() * this.phrases.length)];
@@ -34,7 +34,6 @@ export class HomePage {
   async getRandom() {
     const randomIndex = Math.floor(Math.random() * this.phrases.length);
     this.randomPhrase = this.phrases[randomIndex];
-
     setTimeout(async () => {
       const toast = await this.toastController.create({
         message: this.randomPhrase,
@@ -44,8 +43,5 @@ export class HomePage {
       });
       await toast.present();
     }, 200);
-
   }
-
-
 }
