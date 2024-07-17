@@ -12,9 +12,9 @@ export class HealthPage implements OnInit {
   jump = '../../../assets/photos/jumpScare.png';
 
   ranImg:any[] =[
-    '../../../assets/spirtes/Neutral.png',
+    '../../../assets/spirtes/cpu.png',
     '../../../assets/spirtes/creepy.png',
-    '../../../assets/spirtes/talking.png',
+    /* '../../../assets/spirtes/talking.png', */
   ];
   randImg:string = this.ranImg[Math.floor(Math.random()*this.ranImg.length)];
 

@@ -12,22 +12,21 @@ export class ChatPage implements OnInit {
 
   img: string = '../../assets/spirtes/Neutral.png';
   phrases: any[] = [
-    "...",
-    "hmm...",
-    "zzz...",
-    "*Roonc*",
+    "Não gostei...",
+    "eh...",
+    "Não vejo muito sentido nisso...",
+    "Interessante",
     "onde sera que deixei...",
-    "*cof cof*",
+    "",
     "19...20...21...",
     "...o-ouviu isso?",
   ];
-  
+
   randomPhrase: string = this.phrases[Math.floor(Math.random() * this.phrases.length)];
   cosmetics: any[] = [];
   constructor(private toastController: ToastController,
     private cosmeticsService: CosmeticsService,
     private characterStateService: CharacterStateService) {
-
   }
 
   ngOnInit() {
@@ -50,7 +49,6 @@ export class ChatPage implements OnInit {
       });
       await toast.present();
     }, 200);
-
   }
 
   changeOutfit(img: string) {

@@ -42,7 +42,7 @@ export const phrases2 = {
         ]
     },
     askWho: {
-        text: 'Sou... [_objName?]',
+        text: 'Me chamo... [_objName?]',
         options: [
             { text: 'Não me parece um nome...', next: 'askAboutPast' },
             { text: '*Silencio*', next: 'ignore' }
@@ -72,12 +72,14 @@ export const phrases2 = {
             { text: '. . .', next: 'askJoke2' },
         ]
     },
+
     askJoke2: {
         text: 'O filho diz, "p-pai, aqui é assustador, estou com medo...". E o pai responde [...]',
         options: [
             { text: '. . .', next: 'askJoke3' },
         ]
     },
+
     askJoke3: {
         text: '"Você está com medo? E eu que terei que voltar sozinho?". h!h1hi, o qu3 achou?',
         options: [
@@ -219,7 +221,7 @@ export const phrases2 = {
             { text: '*Abrir*', next: 'start' }
         ]
     },
-    
+
     elaOpenEyes2: {
         text: 'ABRA OS OLHOS!',
         options: [
@@ -230,6 +232,7 @@ export const phrases2 = {
     },
 
     // Finais ==============================
+
     sillyLaugh: {
         text: 'hihihi',
         options: []
