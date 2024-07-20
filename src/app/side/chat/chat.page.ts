@@ -24,7 +24,8 @@ export class ChatPage implements OnInit {
 
   randomPhrase: string = this.phrases[Math.floor(Math.random() * this.phrases.length)];
   cosmetics: any[] = [];
-  constructor(private toastController: ToastController,
+  constructor(
+    private toastController: ToastController,
     private cosmeticsService: CosmeticsService,
     private characterStateService: CharacterStateService) {
   }

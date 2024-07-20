@@ -3,14 +3,14 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <p class="ion-text-right"><ion-button size="large" shape="round" id="click-trigger"><ion-icon name="help-circle"></ion-icon></ion-button></p>
-    
+    <p class="ion-text-right"><ion-button size="large" shape="round" id="click-trigger"><ion-icon
+          name="help-circle"></ion-icon></ion-button></p>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
 
-  <ion-popover trigger="click-trigger" >
+  <ion-popover trigger="click-trigger">
     <ng-template>
       <ion-content class="ion-padding">
         Um jogo simples de pedra, papel ou tesoura. <br>
@@ -20,7 +20,7 @@
   </ion-popover>
 
   <div class="game-container">
-    
+
     <ion-title class="ion-text-center ion-padding" id="title">JOGO</ion-title>
     <ion-grid>
       <ion-row *ngIf="currentRound <4">
@@ -64,9 +64,11 @@
     </ion-card>
 
   </div>
+
   <div class="ion-text-center redo">
     <ion-button shape="round" size="large" *ngIf="currentRound > 3" (click)="resetGame()">
       <ion-icon name="reload"></ion-icon>
     </ion-button>
   </div>
+
 </ion-content>

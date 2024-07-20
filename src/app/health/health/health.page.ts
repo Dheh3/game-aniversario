@@ -9,7 +9,7 @@ import { DialogueOption } from 'src/app/phrases';
 })
 export class HealthPage implements OnInit {
 
-  jump = '../../../assets/photos/jumpScare.png';
+  jump = '../../../assets/photos/scary.png';
 
   ranImg:any[] =[
     '../../../assets/spirtes/cpu.png',
@@ -41,7 +41,6 @@ export class HealthPage implements OnInit {
     this.isCreepy =false;
     const otherImages = this.ranImg.filter(img => img !== '../../../assets/spirtes/creepy.png');
     return otherImages[Math.floor(Math.random() * otherImages.length)];
-  
   }
 
   chooseOption(option: DialogueOption) {
@@ -50,7 +49,7 @@ export class HealthPage implements OnInit {
 
     if (jumpscare) {
       this.showJumpscare = true;
-      setTimeout(() => this.showJumpscare = false, 900); // antes 3000
+      setTimeout(() => this.showJumpscare = false, 9999); // antes 3000
 
       this.dialogueService.chooseOption(option);
       this.dialogue = this.dialogueService.getDialogue();
