@@ -1,14 +1,24 @@
-//*{border:  red solid 1px;}
+//* {border: red solid 1px;}
+
 ion-header {
+    height: auto;
     box-shadow: none;
 
-    #custom-back-button {
-        --size: 100%;
+    ion-toolbar {
+        margin: 1.2rem 0 0 0;
+
+        ion-buttons {
+
+            #custom-back-button::part(native) {
+                font-size: 4rem;
+                margin-left: 0.7rem;
+            }
+        }
+
     }
 
-    #custom-back-button::part(native) {
-        font-size: 3rem;
-        width: auto;
-        height: auto;
-    }
+}
+
+.sc-ion-buttons-md-h {
+    display: block;
 }
