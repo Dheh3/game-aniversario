@@ -37,7 +37,7 @@ export const phrases2 = {
     start: {
         text: 'Olá.',
         options: [
-            { text: 'O-oi...', next: 'askWho', jumpscare: true },
+            { text: 'O-oi...', next: 'askWho'},
             { text: '*Silencio*', next: 'askWho' }
         ]
     },

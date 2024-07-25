@@ -9,7 +9,7 @@ import { DialogueOption } from 'src/app/phrases';
 })
 export class HealthPage implements OnInit {
 
-  jump = '../../../assets/photos/scary.png';
+  jump = '../../../assets/photos/scary1.png';
 
   ranImg:any[] =[
     '../../../assets/spirtes/cpu.png',
