@@ -57,6 +57,14 @@ export const phrases2 = {
         ]
     },
 
+    angry: {
+        text: 'Já sei onde quer chegar',
+        options: [
+            { text: 'Perguntar sobre o lugar', next: 'askAboutPlace' },
+            { text: 'Perguntar sobre ela', next: 'askAboutPast' }
+        ]
+    },
+
     askAboutStats: {
         text: 'Podemos brincar para aumentar a barra de progresso. O que quer fazer?',
         options: [
@@ -87,13 +95,7 @@ export const phrases2 = {
         ]
     },
 
-    angry: {
-        text: 'Já sei onde quer chegar...',
-        options: [
-            { text: 'Perguntar sobre o lugar', next: 'askAboutPlace' },
-            { text: 'Perguntar sobre ela', next: 'askAboutPast' }
-        ]
-    },
+    
 
     askAboutPlace: {
         text: 'Esse lugar? É minha casa! Não é legal? ',
