@@ -34,29 +34,59 @@ export interface DialogueOption {
 }
 
 export const phrases2 = {
+
+    //say
+    //do
+    //ask
+
     start: {
         text: 'Olá.',
         options: [
-            { text: 'O-oi...', next: 'askWho'},
-            { text: '*Silencio*', next: 'askWho' }
+            { text: 'O-oi...', next: 'sayHi'},
+            { text: '*Silencio*', next: 'sayHi' }
         ]
     },
 
-    askWho: {
-        text: 'Me chamo... [_objName?]',
+    sayHi: {
+        text: 'Me chamo Ego',
         options: [
-            { text: 'Não me parece um nome...', next: 'end' },
+            { text: 'Não me parece um nome...', next: 'sayHi2' },
+            { text: '*Silencio*', next: 'sayHi2' }
+        ]
+    },
+
+    sayHi2: {
+        text: 'Fui criada especificamente para te dar os parabéns.',
+        options: [
+            { text: 'O-oh...', next: 'sayOh' },
             { text: '*Silencio*', next: 'end' }
         ]
     },
 
-    ignore: {
-        text: 'Como posso ajudar?',
+    sayOh: {
+        text: 'Parabéns! Fel1z aniversario!',
         options: [
-            { text: 'Seus status estão baixos', next: 'end' },
+            { text: 'Obrigada.', next: 'sayThanks' },
+            { text: 'Não é meu aniversário', next: 'sayNothing' }
+        ]
+    },
+
+    sayThanks: {
+        text: 'Meu proposito está concluido. Nos veremos em outro momento.',
+        options: [
+            { text: 'Obrigada.', next: 'end' },
             { text: '*Silencio*', next: 'end' }
         ]
     },
+
+    sayNothing: {
+        text: 'Oh. Entendo. ',
+        options: [
+            { text: 'Obrigada.', next: 'end' },
+            { text: '*Silencio*', next: 'end' }
+        ]
+    },
+
 
 
     /* askCreator: {
@@ -66,7 +96,6 @@ export const phrases2 = {
             { text: '*Encarar*', next: 'lwys', jumpscare: true },
         ]
     }, */
-
 
     // Finais ==============================
 
