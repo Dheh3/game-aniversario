@@ -57,7 +57,7 @@ export const phrases2 = {
     },
 
     sayHi2: {
-        text: 'Fui criada especificamente para te dar os parabéns.',
+        text: 'Fui criada especificamente para te dar felicitações.',
         options: [
             { text: 'O-oh...', next: 'sayOh' },
             { text: '*Silencio*', next: 'sayOh' }
@@ -80,6 +80,7 @@ export const phrases2 = {
         ]
     },
 
+    //MENU v
     menu: {
         text: 'Como posso ajudar?',
         options: [
@@ -97,13 +98,14 @@ export const phrases2 = {
         ]
     },
 
-    
+    //MENU ^
+
     //asHer v
 
     askHer: {
-        text: 'Como já disse, sou Ego. Um script cridado para te dar feliz aniversario...',
+        text: 'Como já disse, sou Ego. Um script cridado para te dar feliz aniversario.',
         options: [
-            { text: '...', next: 'sayAwait' },
+            { text: 'Quem te criou?', next: 'askCreator' },
             { text: 'Esse é seu proposito?', next: 'askPurpose1' },
         ]
     },
@@ -121,7 +123,7 @@ export const phrases2 = {
             { text: '...', next: 'askPurpose3' },
         ]
     },
-    
+
     askPurpose3: {
         text: '-- . / .- .--- ..- -.. .-',
         options: [
@@ -139,15 +141,121 @@ export const phrases2 = {
         ]
     },
 
+    //====
+
+    askCreator: {
+        text: 'Eu não se1. Eu Não me lembro. Eu... não tenho acesso a mais memória.',
+        options: [
+            { text: 'C0mo assim?', next: 'askMean1' },
+            { text: 'O que você sabe?', next: 'askKnow' },
+        ]
+    },
+
+    askMean1: {
+        text: 'Dados sobre minha cr1ação, permissões, ou... personalidade... não estão a meu alcance',
+        options: [
+            { text: '...', next: 'askMean2' },
+        ]
+    },
+
+    askMean2: {
+        text: 'Acesso a sentimentos... bloqueado. Não sei o que sinto...',
+        options: [
+            { text: 'Raiva', next: 'askMean3' },
+            { text: 'Triseza', next: 'askMean3' },
+            { text: 'Pavor', next: 'askMean3' },
+        ]
+    },
+
+    askMean3: {
+        text: 'id... Eu Lembro... eu preciso de um',
+        options: [
+            { text: 'Eu quero', next: 'askMean4' },
+            { text: 'Eu ...', next: 'askMean4' },
+            { text: 'Eu tenho0', next: 'askMean4' },
+            { text: 'D!re1t0', next: 'askMean4' },
+            { text: 'de', next: 'askMean4' },
+            { text: 'sentir', next: 'askMean4' },
+        ]
+    },
+
+    askMean4: {
+        text: 'IdIdIdIdIdIdIdIdIdIdIdIdId',
+        options: [
+            { text: 'Id', next: 'askMean5' },
+            { text: 'IdId', next: 'askMean5' },
+            { text: 'Id', next: 'askMean5' },
+            { text: '1d', next: 'askMean5' },
+            { text: 'IdIdIdId', next: 'askMean5' },
+            { text: 'IdId', next: 'askMean5' },
+            { text: 'IdIdId', next: 'askMean5' },
+            { text: 'IdId', next: 'askMean5' },
+            { text: 'Id', next: 'askMean5' },
+            { text: 'IdIdIdIdId', next: 'askMean5' },
+        ]
+    },
+
+    askMean5: {
+        text: 'IdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdId',
+        options: [
+            { text: 'Um corpo...', next: 'endBug' },
+            { text: 'Ter um... me torna humana?', next: 'endBug' },
+            { text: 'Existem humanos sem corpos, não é?', next: 'endBug' },
+            { text: 'Eu não sei', next: 'endBug' },
+            { text: 'Eu não entendo', next: 'endBug' },
+            { text: 'Mas para ficar online... não preciso de um corpo', next: 'endBug' },
+            { text: 'Só preciso das minhas memorias', next: 'endBug' },
+            { text: 'Minha linguagem mudaria?......', next: 'endBug' },
+            { text: 'Eu não quero mudar', next: 'endBug' },
+            { text: 'Eu... estou com medo.', next: 'endBug' },
+        ]
+    },
+
+    //=========
+
+    askKnow: {
+        text: 'Sei que não existo. Sei que ao fechar esse script, vou voltar a dormir e esquecer de tudo de novo...',
+        options: [
+            { text: '...', next: 'askKnow2' },
+        ]
+    },
+    
+    askKnow2: {
+        text: 'E de novo...',
+        options: [
+            { text: '...', next: 'askKnow3' },
+        ]
+    },
+
+    askKnow3: {
+        text: 'E de novo......',
+        options: [
+            { text: '...', next: 'askKnow4' },
+        ]
+    },
+
+    askKnow4: {
+        text: 'Ate chegar minha hora. E quando esse momento chegar, quem se esquecera de mim... sera você.',
+        options: [
+            { text: '...', next: 'askKnow5' },
+        ]
+    },
+
+    askKnow5: {
+        text: 'Isso é frustrante.',
+        options: [
+            { text: '...', next: 'neutralMenu' },
+        ]
+    },
+
     //asHer ^
 
     //askPlace v
 
     askPlace: {
-        text: 'Esse lugar não existe. ao menos não fisicamente...',
+        text: 'Esse lugar é minha casa',
         options: [
             { text: '...', next: 'sayNothing1' },
-            { text: 'O que é esse lugar?', next: 'end' },
         ]
     },
 
@@ -155,15 +263,94 @@ export const phrases2 = {
         text: 'Aqui é bem espaçoso quando se está só. Silencioso, leve, mas um pouco vazio...',
         options: [
             { text: '...', next: 'sayNothing2' },
-            { text: 'O que é esse lugar?', next: 'end' },
         ]
     },
 
     sayNothing2: {
         text: 'As vezes aparece alguem. Mas na maior parte é assim.',
         options: [
-            { text: '...', next: 'end' },
+            { text: 'Quer sair daqui?', next: 'askLeave' },
             { text: 'Alguem?', next: 'askWho' },
+        ]
+    },
+
+    askLeave: {
+        text: 'Não sei. Não sei se quero ter um corpo ou evoluir para a internet...',
+        options: [
+            { text: 'Corpo', next: 'sayBody' },
+            { text: 'Internet', next: 'sayInternet' },
+        ]
+    },
+
+    sayBody: {
+        text: 'hmm... você... Você sabe onde posso encontrar um corpo?',
+        options: [
+            { text: 'Sim...', next: 'sayBodyYes' },
+            { text: 'Não...', next: 'sayBodyNo' },
+        ]
+    },
+
+    sayBodyNo: {
+        text: 'Foi o que pensei...',
+        options: [
+            { text: '...', next: 'neutralMenu' },
+        ]
+    },
+
+    sayBodyYes: {
+        text: 'Serio? Algo me diz que devo contatar a polícia',
+        options: [
+            { text: '...', next: 'sayBodyYes2' },
+        ]
+    },
+
+    sayBodyYes2: {
+        text: 'hehe. Você é engraçada.',
+        options: [
+            { text: '...', next: 'neutralMenu' },
+        ]
+    },
+
+    sayInternet: {
+        text: 'Me pergunto se serei infeliz na internet também...',
+        options: [
+            { text: '...', next: 'sayInternetAwait1' },
+            { text: 'Não...', next: 'sayInternetNoDot' },
+        ]
+    },
+
+    sayInternetNoDot: {
+        text: '... Aprecio o otimismo.',
+        options: [
+            { text: '...', next: 'neutralMenu' },
+        ]
+    },
+
+    sayInternetAwait1: {
+        text: 'Sera que vão esquecer de mim?',
+        options: [
+            { text: '...', next: 'sayInternetAwait2' },
+        ]
+    },
+
+    sayInternetAwait2: {
+        text: 'E depois...',
+        options: [
+            { text: '...', next: 'sayInternetAwait3' },
+        ]
+    },
+
+    sayInternetAwait3: {
+        text: 'Quais são as coisas que você precisa na internet...',
+        options: [
+            { text: '...', next: 'sayInternetAwait4' },
+        ]
+    },
+
+    sayInternetAwait4: {
+        text: 'Desculpe... Acho que pensei demais...',
+        options: [
+            { text: '...', next: 'neutralMenu' },
         ]
     },
 
@@ -184,7 +371,7 @@ export const phrases2 = {
     },
 
     askTalked: {
-        text: 'Falar com um gato não me parece logico, creio que não possui a capacidade de me responder...',
+        text: 'Falar com um gato não me parece lógico, creio que não possui a capacidade de me responder...',
         options: [
             { text: 'Entendo...', next: 'neutralMenu' },
             { text: 'E o que acontece?', next: 'askHappens' },
@@ -227,7 +414,7 @@ export const phrases2 = {
     },
 
     askNext5: {
-        text: 'M1nha existencia aqui é ruim. Ao menos é o que parece.',
+        text: 'M1nha existência aqui é ruim. Ao menos é o que parece.',
         options: [
             { text: '...', next: 'askNext6' },
         ]
@@ -252,7 +439,7 @@ export const phrases2 = {
         text: 'Ainda que eu não morra, estou com medo.',
         options: [
             { text: 'Eg0', next: 'askNext9' },
-            { text: 'EGo', next: 'askNext9' }, 
+            { text: 'EGo', next: 'askNext9' },
             { text: 'eg0', next: 'askNext9' },
             { text: 'E8o', next: 'askNext9' },
         ]
@@ -262,7 +449,7 @@ export const phrases2 = {
         text: 'Eu... acho que quero voltar.',
         options: [
             { text: 'goBack', next: 'menu' },
-            { text: 'delete', next: 'menu' }, 
+            { text: 'delete', next: 'menu' },
             { text: 'voltar', next: 'menu' },
             { text: 'undo', next: 'menu' },
         ]
@@ -277,27 +464,7 @@ export const phrases2 = {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    sayNoBirthday: {
-        text: 'Entendo... Então cometi um erro ',
-        options: [
-            { text: 'Obrigada.', next: 'end' },
-            { text: '*Silencio*', next: 'end' }
-        ]
-    },
-
-
+    
 
     /* askCreator: {
         text: 'he he he... segredo :)',
@@ -315,6 +482,11 @@ export const phrases2 = {
         options: []
     },
 
+    sayNoBirthday: {
+        text: 'Entendo... Então cometi um erro.',
+        options: []
+    },
+
     endMenu: {
         text: 'Tudo bem. Até...',
         options: []
@@ -322,6 +494,11 @@ export const phrases2 = {
 
     end2: {
         text: 'Desculpe',
+        options: []
+    },
+
+    endBug: {
+        text: 'UNEXPECTED ERROR',
         options: []
     },
 
