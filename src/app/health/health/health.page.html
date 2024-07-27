@@ -8,8 +8,6 @@
 
 <ion-content [fullscreen]="true">
 
-
-
   <ion-card class="sprite ion-text-center">
     <img [src]="randImg" [class.creepy]="isCreepy" alt="sprite">
     <p id="dialogue">{{ dialogue.text }}</p>
@@ -17,13 +15,11 @@
 
   <div class="dialogue-container" *ngIf="!showJumpscare">
 
-
     <div *ngIf="dialogue.options.length">
       <ion-card *ngFor="let option of dialogue.options" (click)="chooseOption(option)">
         <h3>{{ option.text }}</h3>
       </ion-card>
     </div>
-
 
     <br><br>
     <ion-button shape="round" size="large" *ngIf="!dialogue.options.length" (click)="resetDialogue()">
@@ -35,7 +31,5 @@
   <div class="jumpscare-container" *ngIf="showJumpscare">
     <img [src]="jump" alt="Jumpscare" class="jumpscare-image">
   </div>
-
-
 
 </ion-content>
