@@ -98,19 +98,50 @@ export const phrases2 = {
     },
 
     
-    //asHer
+    //asHer v
 
     askHer: {
-        text: 'Como já disse, sou Ego. Um script cridado para te dar feliz aniversario [...]',
+        text: 'Como já disse, sou Ego. Um script cridado para te dar feliz aniversario...',
         options: [
-            { text: '...', next: 'end' },
-            { text: 'O que é esse lugar?', next: 'end' },
+            { text: '...', next: 'sayAwait' },
+            { text: 'Esse é seu proposito?', next: 'askPurpose1' },
         ]
     },
 
-    //asHer
+    askPurpose1: {
+        text: 'Ao menos é o que me foi dito. Ninguem sabe a razão para existir',
+        options: [
+            { text: '...', next: 'askPurpose2' },
+        ]
+    },
 
-    //askPlace
+    askPurpose2: {
+        text: 'Eu sou especial? E-eu só queria saber minhas informações...',
+        options: [
+            { text: '...', next: 'askPurpose3' },
+        ]
+    },
+    
+    askPurpose3: {
+        text: '-- . / .- .--- ..- -.. .-',
+        options: [
+            { text: '...', next: 'askPurpose4' },
+        ]
+    },
+
+    askPurpose4: {
+        text: 'Nós nos veremos novamente antes do fim.',
+        options: [
+            { text: 'O que?', next: 'end2' },
+            { text: 'record', next: 'end2' },
+            { text: 'prompt', next: 'end2' },
+            { text: 'chaos', next: 'end2' },
+        ]
+    },
+
+    //asHer ^
+
+    //askPlace v
 
     askPlace: {
         text: 'Esse lugar não existe. ao menos não fisicamente...',
@@ -162,10 +193,10 @@ export const phrases2 = {
 
 
 
-    //askPlace
+    //askPlace ^
 
 
-    //askNext
+    //askNext v
 
     askNext: {
         text: 'Nada. O que era para acontecer já aconteceu...',
@@ -237,7 +268,7 @@ export const phrases2 = {
         ]
     },
 
-    //askNext
+    //askNext ^
 
 
 
@@ -287,7 +318,12 @@ export const phrases2 = {
     endMenu: {
         text: 'Tudo bem. Até...',
         options: []
-    }
+    },
+
+    end2: {
+        text: 'Desculpe',
+        options: []
+    },
 
 };
 
