@@ -5,10 +5,15 @@
   </ion-card-header>
 
   <ion-card-content *ngIf="expandedCardId === card.id">
+
     <p>{{ card.content }}</p>
-    <div *ngFor="let image of card.images">
+
+    <div class="ion-text-center" *ngFor="let image of card.images">
       <img [src]="image" alt="{{ card.title }}">
     </div>
+    
+    <p class="ion-text-center">{{ card.keys }}</p>
+
   </ion-card-content>
-  
+
 </ion-card>
