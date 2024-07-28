@@ -44,7 +44,7 @@ export const phrases2 = {
         options: [
             { text: 'O-oi...', next: 'sayHi' },
             { text: '*Silencio*', next: 'sayHi' },
-            { text: '*DEV*', next: 'menu' }
+            //{ text: '*DEV*', next: 'menu' }
         ]
     },
 
@@ -378,8 +378,6 @@ export const phrases2 = {
         ]
     },
 
-
-
     //askPlace ^
 
 
@@ -457,16 +455,8 @@ export const phrases2 = {
 
     //askNext ^
 
-
-
-
-
-
-
-
-    
-
-    /* askCreator: {
+    /* 
+    askCreator: {
         text: 'he he he... segredo :)',
         options: [
             { text: 'Responda a pergunta', next: 'laugh' },

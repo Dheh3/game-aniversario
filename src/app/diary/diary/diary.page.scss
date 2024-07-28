@@ -1,0 +1,28 @@
+ion-header {
+    box-shadow: none;
+}
+
+ion-content {
+    #title {
+        letter-spacing: 5px;
+        font-weight: 900;
+        font-size: 36px;
+    }
+
+    /* src/app/components/card-list/card-list.component.scss */
+
+    ion-card {
+        margin-bottom: 20px;
+    }
+
+    ion-card-header {
+        cursor: pointer;
+    }
+
+    ion-card-content img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+}

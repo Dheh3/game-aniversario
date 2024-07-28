@@ -1,0 +1,14 @@
+<ion-card *ngFor="let card of cards" (click)="toggleCard(card.id)">
+
+  <ion-card-header>
+    <ion-card-title>{{ card.title }}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content *ngIf="expandedCardId === card.id">
+    <p>{{ card.content }}</p>
+    <div *ngFor="let image of card.images">
+      <img [src]="image" alt="{{ card.title }}">
+    </div>
+  </ion-card-content>
+  
+</ion-card>

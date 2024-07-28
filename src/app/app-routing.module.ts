@@ -62,6 +62,10 @@ const routes: Routes = [
   {
     path: 'hell',
     loadChildren: () => import('./final/hell/hell.module').then( m => m.HellPageModule)
+  },
+  {
+    path: 'diary',
+    loadChildren: () => import('./diary/diary/diary.module').then( m => m.DiaryPageModule)
   }
 ];
 
