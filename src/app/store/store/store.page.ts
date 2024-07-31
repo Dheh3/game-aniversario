@@ -12,7 +12,8 @@ export class StorePage implements OnInit {
   showAlert: boolean = false;
   alertMessage: string = '';
 
-  message: string = "Moedas insuficientes!";
+  //message: string = "Moedas insuficientes!";
+  message!: string;
  
   constructor(private coinService: CoinsService, private toastController: ToastController) {
 
@@ -29,12 +30,25 @@ export class StorePage implements OnInit {
     toast.present();
   }
 
-  removeCoins(){
-    if(this.coinService.removeCoins(100)){
+  removeKeys(){
+    if(this.coinService.removeKeys(100)){
       this.presentToast('Você obteve uma chave!');
     }else{
-      this.presentToast('Moedas insuficientes.');
+      this.lowCoins();
     }
+  }
+
+  removeDocs(){
+    if(this.coinService.removeDocs(20)){
+      this.presentToast('File unlocked');
+    }else{
+      this.lowCoins()
+      //this.presentToast('Moedas insuficientes.');
+    }
+  }
+
+  lowCoins(){
+    this.presentToast('Moedas insuficientes.');
   }
 
 

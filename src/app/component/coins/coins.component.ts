@@ -10,12 +10,14 @@ export class CoinsComponent implements OnInit {
 
   coins!: number;
   key!:number;
+  doc!:number;
 
   constructor(private coinsService: CoinsService) {}
 
   ngOnInit() {
     this.coinsService.currentCoins.subscribe(coins => this.coins = coins);
     this.coinsService.currentKey.subscribe(key => this.key = key);
+    this.coinsService.currentDoc.subscribe(doc => this.doc = doc);
   }
 
 }

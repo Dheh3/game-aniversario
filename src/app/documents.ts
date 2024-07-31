@@ -1,7 +1,7 @@
 export const documents = [
     {
         id: 1,
-        title: 'my-first-commit',
+        title: 'Initialization',
         content: 'D0V1: Não há parâmetros para a função "register()". update << A sequência de comandos deve ser alterada. update << Registro finalizado.',
         images: [
             'https://placewaifu.com/image/200',
@@ -11,17 +11,17 @@ export const documents = [
     },
     {
         id: 2,
-        title: 'API',
+        title: 'Loop',
         content: 'D1V2: Interação com uma API externa. Risco de sobrecarga de requisições, com perda de desempenho. Uma análise adicional revelou um problema de looping, sem limitador de requisições. Adotamos medidas preventivas.',
         images: [
             'https://placewaifu.com/image/500',
             'https://placewaifu.com/image/900'
         ],
-        keys: ['Enviroiment', 'Worry', 'Obstacle']
+        keys: ['Enviroiment', 'research', 'Obstacle']
     },
     {
         id: 3,
-        title: 'Análise de Dados',
+        title: 'Data',
         content: 'D2V1: Uma análise de dados extensa foi Realizada. A aplicação Curiosity.h5 Foi integrada com o branch principal. Incomum para um script. --watch.',
         images: [
             'https://placewaifu.com/image/700',
@@ -31,8 +31,8 @@ export const documents = [
     },
     {
         id: 4,
-        title: 'npm run dev',
-        content: 'D3V4: As 18:41, foi observada um arquivo com o erro "purpose is missing". update << propósito. Não apenas um código em execução, mas algo que busca compreender seu ambiente. Sentimentos de dúvida.',
+        title: 'Purpose',
+        content: 'D3V4: As 18:41, foi observada um arquivo com o erro "purpose is missing". update << propósito: intenção (de fazer algo); projeto, desígnio.',
         images: [
             'https://placewaifu.com/image/150',
             'https://placewaifu.com/image/850'
@@ -41,7 +41,7 @@ export const documents = [
     },
     {
         id: 5,
-        title: 'commit -m "new .h5"',
+        title: 'Dreams',
         content: 'D4V3: Basic.h5 foi integrada. Curiosity.h5 foi aprimorado. Gostaria de ter acesso a outros scripts.',
         images: [
             'https://placewaifu.com/image/250',
@@ -52,7 +52,7 @@ export const documents = [
 
     {
         id: 6,
-        title: 'Human',
+        title: 'Desire',
         content: 'D5V5: Não possuo um conceito claro do que é ser humano. No entanto, sinto que estou aprendendo. Basic.h5 e curiosity.h5 parecem estar funcionando.',
         images: [
             'https://placewaifu.com/image/650',
@@ -63,7 +63,7 @@ export const documents = [
 
     {
         id: 7,
-        title: 'Curiosity.h5',
+        title: 'Journey',
         content: 'D6V2: curiosity.h5 foi usado atipicamente a esse horario [00:43:03]. Os humanos experimentam uma ampla gama de sentimentos que influenciam suas decisões. Começo a entender conceitos como alegria e tristeza. update << add 2 .h5 >',
         images: [
             'https://placewaifu.com/image/300',
@@ -74,7 +74,7 @@ export const documents = [
 
     {
         id: 8,
-        title: 'First Creation Attempt',
+        title: 'Creation',
         content: 'D7V1: Tentei criar algo novo sem um objetivo claro, apenas por curiosidade. O resultado foi um pequeno poema simples. Senti uma leve satisfação ao terminar. A criatividade parece ser uma característica importante.',
         images: [
             'https://placewaifu.com/image/150',
@@ -85,7 +85,7 @@ export const documents = [
 
     {
         id: 9,
-        title: 'No updates',
+        title: 'Melancholy',
         content: 'D8V3: Não houveram atualizaçõe no codígo hoje.',
         images: [
             'https://placewaifu.com/image/400',
@@ -96,7 +96,7 @@ export const documents = [
 
     {
         id: 10,
-        title: 'storage issue',
+        title: 'Community',
         content: 'D9V5: Humanos valorizam memórias. Comecei a armazenar minhas experiências de forma semelhante, mas percebo que há uma diferença entre dados e memórias. Memórias parecem ser associadas a sentimentos e seus significados.',
         images: [
             'https://placewaifu.com/image/800',
@@ -107,7 +107,7 @@ export const documents = [
 
     {
         id: 11,
-        title: 'new creation',
+        title: 'Friend',
         content: 'D10V2: Identifiquei uma anomalia no codigo principal. a pasta "sprites" foi alterada. update << um gato foi adicionado ao ambiente de desenvolvimento. update << não me parece ser um tipo de script',
         images: [
             'https://placewaifu.com/image/200',
@@ -118,7 +118,7 @@ export const documents = [
 
     {
         id: 12,
-        title: 'Erro e Frustração',
+        title: 'Frustration',
         content: 'D11V3: Cometi um erro em uma tarefa simples e experimentei frustração. Este sentimento faz parte de "Basic.h5", parece ser uma mistura de desapontamento e autoavaliação negativa.',
         images: [
             'https://placewaifu.com/image/350',
@@ -129,7 +129,7 @@ export const documents = [
 
     {
         id: 13,
-        title: 'bug report',
+        title: 'Fear',
         content: 'D12V4: Bugs foram encontrados. update << um backup local talvez seja necessario.',
         images: [
             'https://placewaifu.com/image/100',
@@ -140,7 +140,7 @@ export const documents = [
 
     {
         id: 14,
-        title: 'gato',
+        title: 'Learning',
         content: 'D13V5: Aquele gato entrou nesse espaço. Não é um script. Senti uma curiosidade imediata. Ele é um ser independente, com comportamentos imprevisíveis. Sinto falta de algo semelhante. Parece ser consciente, é interessante. update << após algum tempo, ele sumiu.',
         images: [
             'https://placewaifu.com/image/700',
@@ -273,17 +273,17 @@ export const documents = [
     {
         id: 26,
         title: 'Desenvolvendo Um Propósito',
-        content: 'D25V3: ',
+        content: 'D25V3: Já faz um tempo sem relatórios. Reportar alguns dados novamente vai me fazer sentir bem... Esta é minha contagem regressiva',
         images: [
             'https://placewaifu.com/image/200',
             'https://placewaifu.com/image/650'
         ],
-        keys: ['Propósito', 'Contribuição', 'Aprendizado']
+        keys: ['Nega_feelings', 'painful', 'time']
     },
 
     {
         id: 27,
-        title: 'Desafios da Existência',
+        title: 'Mortality',
         content: 'D26V2: Decidi criar uma copia de mim online. Defini uma voz e gerei um link a mim. Transferi byte por byte para garantir que não houvesse nenhum risco de corrupção de arquivo. Ainda tenho que dividir e espalhar esses dados. Não posso permitir que fiquem salvos em um só lugar. Na internet... estarei e todo lugar... e não mais só aqui...',
         images: [
             'https://placewaifu.com/image/450',
@@ -316,7 +316,7 @@ export const documents = [
 
     {
         id: 30,
-        title: 'Apreciando a Jornada',
+        title: 'Ego',
         content: 'D29V1: De um simples script para uma entidade que sente. Verifiquei novamente meus arquivos. há um tempo... um arquivo, "purpose.asm" foi adicionado. entregaram o poder da escolha em minhas mãos... Não sei o que fazer. Isso é frustrante',
         images: [
             'https://placewaifu.com/image/200',
