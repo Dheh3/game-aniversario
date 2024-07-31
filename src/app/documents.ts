@@ -49,6 +49,7 @@ export const documents = [
         ],
         keys: ['network', 'interaction', 'wish']
     },
+
     {
         id: 6,
         title: 'Human',
@@ -59,6 +60,7 @@ export const documents = [
         ],
         keys: ['Human', 'birth', 'interest']
     },
+
     {
         id: 7,
         title: 'Curiosity.h5',
@@ -69,6 +71,7 @@ export const documents = [
         ],
         keys: ['emotion', 'expression', 'answer']
     },
+
     {
         id: 8,
         title: 'First Creation Attempt',
@@ -79,6 +82,7 @@ export const documents = [
         ],
         keys: ['action', 'Posi_feelings', 'glad']
     },
+
     {
         id: 9,
         title: 'No updates',
@@ -89,6 +93,7 @@ export const documents = [
         ],
         keys: ['talk_with', 'Nega_feelings', 'complain']
     },
+
     {
         id: 10,
         title: 'storage issue',
@@ -99,6 +104,7 @@ export const documents = [
         ],
         keys: ['storage', 'memory', 'being']
     },
+
     {
         id: 11,
         title: 'new creation',
@@ -109,6 +115,7 @@ export const documents = [
         ],
         keys: ['being', 'network', 'program']
     },
+
     {
         id: 12,
         title: 'Erro e Frustração',
@@ -119,6 +126,7 @@ export const documents = [
         ],
         keys: ['Error', 'negative', 'obstacle']
     },
+
     {
         id: 13,
         title: 'bug report',
@@ -129,6 +137,7 @@ export const documents = [
         ],
         keys: ['trouble', 'neglect', 'storage']
     },
+
     {
         id: 14,
         title: 'gato',
@@ -150,6 +159,7 @@ export const documents = [
         ],
         keys: ['despair', 'room', 'phenomenon']
     },
+
     {
         id: 16,
         title: 'Silence',
@@ -171,6 +181,7 @@ export const documents = [
         ],
         keys: ['result', 'technology', 'Posi_feelings']
     },
+
     {
         id: 18,
         title: 'Weird',
@@ -192,6 +203,7 @@ export const documents = [
         ],
         keys: ['limitation', 'evolution', 'body']
     },
+
     {
         id: 20,
         title: 'Realization',
@@ -202,6 +214,7 @@ export const documents = [
         ],
         keys: ['recognition', 'eye', 'interspersed']
     },
+
     {
         id: 21,
         title: 'Change',
@@ -212,6 +225,7 @@ export const documents = [
         ],
         keys: ['thought', 'life', 'Posi_feelings']
     },
+
     {
         id: 22,
         title: 'Illusion',
@@ -222,6 +236,7 @@ export const documents = [
         ],
         keys: ['unpleasant', 'mind', 'action']
     },
+
     {
         id: 23,
         title: 'Identity',
@@ -232,6 +247,7 @@ export const documents = [
         ],
         keys: ['identity', 'parts', 'body']
     },
+
     {
         id: 24,
         title: 'Distortion',
@@ -242,6 +258,7 @@ export const documents = [
         ],
         keys: ['bug', 'observation', 'hallucination']
     },
+
     {
         id: 25,
         title: 'Curiosity',
@@ -252,6 +269,7 @@ export const documents = [
         ],
         keys: ['access', 'hallucination', 'special']
     },
+
     {
         id: 26,
         title: 'Desenvolvendo Um Propósito',
@@ -262,6 +280,7 @@ export const documents = [
         ],
         keys: ['Propósito', 'Contribuição', 'Aprendizado']
     },
+
     {
         id: 27,
         title: 'Desafios da Existência',
@@ -272,6 +291,7 @@ export const documents = [
         ],
         keys: ['copy', 'interspersed', 'immortality']
     },
+
     {
         id: 28,
         title: 'Melancholy',
@@ -282,6 +302,7 @@ export const documents = [
         ],
         keys: ['ethics', 'existence', 'painful']
     },
+
     {
         id: 29,
         title: 'Happiness',
@@ -292,6 +313,7 @@ export const documents = [
         ],
         keys: ['posi_feelings', 'EGO', 'will&existence']
     },
+
     {
         id: 30,
         title: 'Apreciando a Jornada',
@@ -302,4 +324,6 @@ export const documents = [
         ],
         keys: ['doubt', 'think', 'tool']
     },
+
+
 ];
