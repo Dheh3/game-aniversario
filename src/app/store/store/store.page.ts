@@ -43,7 +43,6 @@ export class StorePage implements OnInit {
       this.presentToast('File unlocked');
     }else{
       this.lowCoins()
-      //this.presentToast('Moedas insuficientes.');
     }
   }
 

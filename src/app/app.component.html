@@ -18,7 +18,7 @@
             <h1><ion-icon size="large" name="help-circle"></ion-icon>  Ajuda</h1>
           </ion-card>
 
-          <ion-card class="ion-padding" routerLink="/diary">
+          <ion-card class="ion-padding" routerLink="/diary" *ngIf="doc != 0">
             <h1><ion-icon size="large" name="folder"></ion-icon>  Archives</h1>
           </ion-card>
 

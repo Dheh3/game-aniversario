@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { register } from 'swiper/element/bundle';
+import { CoinsService } from './service/coins.service';
 
 register();
 
@@ -9,5 +10,12 @@ register();
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor() {}
+  doc!:number;
+
+  constructor(private coinsService: CoinsService) {}
+
+  ngOnInit(){
+    this.coinsService.currentDoc.subscribe(doc => this.doc = doc);
+  }
+
 }
