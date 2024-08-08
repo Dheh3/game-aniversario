@@ -9,11 +9,11 @@
 <ion-content [fullscreen]="true">
 
   <ion-card class="sprite ion-text-center">
-    <img [src]="randImg" [class.creepy]="isCreepy" alt="sprite">
+    <img [src]="randImg" alt="sprite">
     <p id="dialogue">{{ dialogue.text }}</p>
   </ion-card>
 
-  <div class="dialogue-container" *ngIf="!showJumpscare">
+  <div class="dialogue-container" >
 
     <div *ngIf="dialogue.options.length">
       <ion-card *ngFor="let option of dialogue.options" (click)="chooseOption(option)">
@@ -26,10 +26,6 @@
       <ion-icon slot="icon-only" name="reload"></ion-icon>
     </ion-button><br>
 
-  </div>
-
-  <div class="jumpscare-container" *ngIf="showJumpscare">
-    <img [src]="jump" alt="Jumpscare" class="jumpscare-image">
   </div>
 
 </ion-content>

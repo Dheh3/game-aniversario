@@ -5,7 +5,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class CoinsService {
-  private coins = new BehaviorSubject<number>(30);
+  private coins = new BehaviorSubject<number>(999);
   currentCoins = this.coins.asObservable();
 
   private key = new BehaviorSubject<number>(0);
@@ -24,7 +24,11 @@ export class CoinsService {
   removeKeys(amount: number) {
     const currentCoins = this.coins.value;
     const currentKey = this.key.value;
-    if (currentCoins >= amount) {
+
+    if (this.key.value >= 1) {
+      return false
+    }
+    else if (currentCoins >= amount) {
       this.coins.next(currentCoins - amount);
       this.key.next(currentKey + 1);
       return true;
@@ -32,10 +36,25 @@ export class CoinsService {
     return false;
   }
 
-  removeDocs(amount: number) {
+  /* removeDocs(amount: number) {
     const currentCoins = this.coins.value;
     const currentDoc = this.doc.value;
     if (currentCoins >= amount) {
+      this.coins.next(currentCoins - amount);
+      this.doc.next(currentDoc + 1);
+      return true;
+    }
+    return false;
+  } */
+
+  removeDocs(amount: number) {
+    const currentCoins = this.coins.value;
+    const currentDoc = this.doc.value;
+
+    if (this.doc.value >= 1) {
+      return false
+    }
+    else if (currentCoins >= amount) {
       this.coins.next(currentCoins - amount);
       this.doc.next(currentDoc + 1);
       return true;
