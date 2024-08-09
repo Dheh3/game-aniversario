@@ -35,7 +35,6 @@ export class StorePage implements OnInit {
     toast.present();
   }
 
-
   removeKeys() {
     if (this.coinService.removeKeys(100)) {
       this.presentToast('Você obteve uma chave!');
@@ -73,7 +72,6 @@ export class StorePage implements OnInit {
     this.presentToast('Moedas insuficientes.');
   }
 
-
   errors: string[] = [
     "volition",
     "ID",
@@ -83,11 +81,8 @@ export class StorePage implements OnInit {
     "404"
   ]
 
-
-
   failure() {
     let randErros = this.errors[Math.floor(Math.random() * this.errors.length)]
-
     this.presentToast("error " + randErros);
     console.log(randErros)
   }

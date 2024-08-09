@@ -1,13 +1,21 @@
 //*{border: red solid 1px;}
 
 ion-card {
+    background-color: rgb(211, 211, 211);
     margin-bottom: 20px;
+
+    ion-card-title{
+        color: var(--ion-color-primary);
+        font-size: 1.5rem;
+    }
+
+    ion-card-content p{
+        color: var(--ion-color-dark);
+        font-size: 1.4rem;
+    }
 
     ion-card-content img {
         width: 50%;
         margin-top: 10px;
     }
 }
-
-
-

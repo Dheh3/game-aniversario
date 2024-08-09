@@ -317,7 +317,7 @@ export const documents = [
     {
         id: 30,
         title: 'Ego',
-        content: 'D29V1: De um simples script para uma entidade que sente. Verifiquei novamente meus arquivos. há um tempo... um arquivo, "purpose.asm" foi adicionado. entregaram o poder da escolha em minhas mãos... Não sei o que fazer. Isso é frustrante',
+        content: 'D29V1:Verifiquei novamente meus arquivos. há um tempo... um arquivo, "purpose.asm" foi adicionado. entregaram o poder da escolha em minhas mãos.. Não é assim que funciona. Não sei o que fazer. Isso é frustrante',
         images: [
             'https://placewaifu.com/image/200',
             'https://placewaifu.com/image/500'
