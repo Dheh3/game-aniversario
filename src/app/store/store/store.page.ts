@@ -14,20 +14,15 @@ export class StorePage implements OnInit {
   isDocActive: boolean = true
   isKeyActive: boolean = true
 
-  cssBla = 'bla'
-  
-  colorActive: boolean = true
-  color:string = "dark"
-  
+  cssBlaKey = 'blaKey'
+  colorKey: string = "dark"
 
+  cssBlaDoc: string = 'bla'
+  colorDoc: string = "dark"
 
-
-  //message: string = "Moedas insuficientes!";
   message!: string;
 
-  constructor(private coinService: CoinsService, private toastController: ToastController) {
-
-  }
+  constructor(private coinService: CoinsService, private toastController: ToastController) { }
 
   ngOnInit() { }
 
@@ -40,18 +35,13 @@ export class StorePage implements OnInit {
     toast.present();
   }
 
-  /* removeKeys(){
-    if(this.coinService.removeKeys(100)){
-      this.presentToast('Você obteve uma chave!');
-    }else{
-      this.lowCoins();
-    }
-  } */
 
   removeKeys() {
     if (this.coinService.removeKeys(100)) {
       this.presentToast('Você obteve uma chave!');
       this.isKeyActive = false
+      this.colorKey = "tertiary"
+      this.cssBlaKey = 'bleKey'
       console.log(this.isKeyActive)
     } else if (this.isKeyActive === false) {
       this.presentToast('Already unlocked');
@@ -66,8 +56,8 @@ export class StorePage implements OnInit {
     if (this.coinService.removeDocs(20)) {
       this.presentToast('File unlocked');
       this.isDocActive = false
-      this.color = "tertiary"
-      this.cssBla = 'ble'
+      this.colorDoc = "tertiary"
+      this.cssBlaDoc = 'ble'
       console.log(this.isDocActive)
     } else if (this.isDocActive === false) {
       this.presentToast('Already unlocked');
@@ -77,17 +67,29 @@ export class StorePage implements OnInit {
       console.log(this.isDocActive)
     }
 
-    /* if(this.colorActive = true) {
-      this.color = "dark"
-    }else if(this.colorActive = false) {
-      this.color = "tertiary"
-    } */
-
   }
 
   lowCoins() {
     this.presentToast('Moedas insuficientes.');
   }
 
+
+  errors: string[] = [
+    "volition",
+    "ID",
+    "EGO",
+    "StayConnected",
+    "13SEL+Ego",
+    "404"
+  ]
+
+
+
+  failure() {
+    let randErros = this.errors[Math.floor(Math.random() * this.errors.length)]
+
+    this.presentToast("error " + randErros);
+    console.log(randErros)
+  }
 
 }

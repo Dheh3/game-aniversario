@@ -15,17 +15,17 @@
   <ion-grid class="ion-text-center ion-padding">
     <ion-row>
       <ion-col>
-        <ion-icon name="square" size="large" color="tertiary"></ion-icon><br>
+        <ion-icon name="square" size="large" color="tertiary" (click)="failure()"></ion-icon><br>
         <p>4 <ion-icon name="happy"></ion-icon></p>
       </ion-col>
       <!--==============================-->
       <ion-col>
-        <ion-icon name="ellipse" size="large" color="tertiary"></ion-icon><br>
-        <p>3 <ion-icon name="caret-forward-circle" class="ion-text-center"></ion-icon></p>
+        <ion-icon name="ellipse" size="large" color="tertiary" (click)="failure()"></ion-icon><br>
+        <p>3 <ion-icon name="caret-forward-circle" class="ion-text-center" ></ion-icon></p>
       </ion-col>
       <!--==============================-->
       <ion-col>
-        <ion-icon name="prism-outline" size="large" color="tertiary"></ion-icon><br>
+        <ion-icon name="prism-outline" size="large" color="tertiary" (click)="failure()"></ion-icon><br>
         <p>3 <ion-icon name="happy"></ion-icon></p>
       </ion-col>
     </ion-row>
@@ -34,17 +34,17 @@
 
     <ion-row>
       <ion-col>
-        <ion-icon name="prism" size="large" color="tertiary"></ion-icon><br>
+        <ion-icon name="prism" size="large" color="tertiary" (click)="failure()"></ion-icon><br>
         <p>9 <ion-icon name="happy"></ion-icon></p>
       </ion-col>
       <!--==============================-->
       <ion-col ><!--chave-->
-        <ion-icon name="key" size="large" color="dark" (click)="removeKeys()"></ion-icon><br>
-        <p id="bla" (click)="removeKeys()" >100 <ion-icon name="happy" class="ion-text-center"></ion-icon></p>
+        <ion-icon name="key" size="large" [color]="colorKey" (click)="removeKeys()"></ion-icon><br>
+        <p [id]="cssBlaKey" (click)="removeKeys()" >100 <ion-icon [color]="colorKey" name="happy" class="ion-text-center"></ion-icon></p>
       </ion-col>
       <!--==============================-->
       <ion-col>
-        <ion-icon name="cube" size="large" color="tertiary"></ion-icon><br>
+        <ion-icon name="cube" size="large" color="tertiary" (click)="failure()"></ion-icon><br>
         <p>16 <ion-icon name="happy"></ion-icon></p>
       </ion-col>
     </ion-row>
@@ -53,17 +53,17 @@
 
     <ion-row>
       <ion-col>
-        <ion-icon name="document-text" size="large" [color]="color" (click)="removeDocs()"></ion-icon><br>
-        <p [id]="cssBla" (click)="removeDocs()">20 <ion-icon [color]="color" name="happy" class="ion-text-center"></ion-icon></p>
+        <ion-icon name="document-text" size="large" [color]="colorDoc" (click)="removeDocs()"></ion-icon><br>
+        <p [id]="cssBlaDoc" (click)="removeDocs()">20 <ion-icon [color]="colorDoc" name="happy" class="ion-text-center"></ion-icon></p>
       </ion-col>
       <!--==============================-->
       <ion-col>
-        <ion-icon name="cube-outline" size="large" color="tertiary"></ion-icon><br>
+        <ion-icon name="cube-outline" size="large" color="tertiary" (click)="failure()"></ion-icon><br>
         <p>16 <ion-icon name="happy" class="ion-text-center"></ion-icon></p>
       </ion-col>
       <!--==============================-->
       <ion-col>
-        <ion-icon name="ellipse-outline" size="large" color="tertiary"></ion-icon><br>
+        <ion-icon name="ellipse-outline" size="large" color="tertiary" (click)="failure()"></ion-icon><br>
         <p>3 <ion-icon name="happy"></ion-icon></p>
       </ion-col>
     </ion-row>
