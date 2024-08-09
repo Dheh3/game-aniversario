@@ -53,8 +53,8 @@
 
     <ion-row>
       <ion-col>
-        <ion-icon name="document-text" size="large" color="dark" (click)="removeDocs()"></ion-icon><br>
-        <p id="bla" (click)="removeDocs()">20 <ion-icon name="happy" class="ion-text-center"></ion-icon></p>
+        <ion-icon name="document-text" size="large" [color]="color" (click)="removeDocs()"></ion-icon><br>
+        <p [id]="cssBla" (click)="removeDocs()">20 <ion-icon [color]="color" name="happy" class="ion-text-center"></ion-icon></p>
       </ion-col>
       <!--==============================-->
       <ion-col>

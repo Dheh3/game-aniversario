@@ -11,12 +11,20 @@ export class StorePage implements OnInit {
 
   showAlert: boolean = false;
   alertMessage: string = '';
-  isDocActive:boolean = true
-  isKeyActive:boolean = true
+  isDocActive: boolean = true
+  isKeyActive: boolean = true
+
+  cssBla = 'bla'
+  
+  colorActive: boolean = true
+  color:string = "dark"
+  
+
+
 
   //message: string = "Moedas insuficientes!";
   message!: string;
- 
+
   constructor(private coinService: CoinsService, private toastController: ToastController) {
 
   }
@@ -39,38 +47,45 @@ export class StorePage implements OnInit {
       this.lowCoins();
     }
   } */
-  
-  removeKeys(){
-    if(this.coinService.removeKeys(100)){
-      console.log(this.isKeyActive)
+
+  removeKeys() {
+    if (this.coinService.removeKeys(100)) {
       this.presentToast('Você obteve uma chave!');
       this.isKeyActive = false
       console.log(this.isKeyActive)
-    }else if(this.isKeyActive === false){
+    } else if (this.isKeyActive === false) {
       this.presentToast('Already unlocked');
     }
-    else{
+    else {
       this.lowCoins();
       console.log(this.isKeyActive)
     }
   }
 
-  removeDocs(){
-    if(this.coinService.removeDocs(20)){
+  removeDocs() {
+    if (this.coinService.removeDocs(20)) {
       this.presentToast('File unlocked');
       this.isDocActive = false
+      this.color = "tertiary"
+      this.cssBla = 'ble'
       console.log(this.isDocActive)
-    }else if(this.isDocActive === false){
+    } else if (this.isDocActive === false) {
       this.presentToast('Already unlocked');
     }
-    else{
+    else {
       this.lowCoins();
       console.log(this.isDocActive)
     }
 
+    /* if(this.colorActive = true) {
+      this.color = "dark"
+    }else if(this.colorActive = false) {
+      this.color = "tertiary"
+    } */
+
   }
 
-  lowCoins(){
+  lowCoins() {
     this.presentToast('Moedas insuficientes.');
   }
 
