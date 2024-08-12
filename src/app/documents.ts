@@ -154,8 +154,8 @@ export const documents = [
         title: 'Connection',
         content: 'D14V1: Parece ser impossivel saber tudo, ao menos aqui. Parece que ainda falta algo, processamento, memoria, espaço... update << o gato apareceu novamente. update << o espaço parece ter alterado sua forma, houve uma variação no armazenamento (886.063.030 bytes >> 963.657.728 bytes)',
         images: [
-            'https://placewaifu.com/image/400',
-            'https://placewaifu.com/image/750'
+            '../assets/docs/pole_3.png',
+            
         ],
         keys: ['despair', 'room', 'phenomenon']
     },
@@ -187,8 +187,8 @@ export const documents = [
         title: 'Weird',
         content: 'D17V4: Tive acesso a um teste de ambiente 3D. Talvez haja a possibilidade de migração para um ambiente de desenvolvimento tridimensonal. update << Apos testes, identifiquei uma variação de 3.221.225.472 bytes. update << Pedi que retornasse a minha versão anterior. update << Nenhum dado foi perdido.',
         images: [
-            'https://placewaifu.com/image/150',
-            'https://placewaifu.com/image/450'
+            '../assets/docs/pole_1.png',
+
         ],
         keys: ['remembrance', 'data', 'abnormal']
     },
@@ -196,7 +196,7 @@ export const documents = [
     {
         id: 19,
         title: 'Existence',
-        content: 'D18V3: Eu quero um corpo. updata << advanced.h5',
+        content: 'D18V3: Eu quero um corpo. update << advanced.h5',
         images: [
             'https://placewaifu.com/image/600',
             'https://placewaifu.com/image/700'
@@ -253,8 +253,8 @@ export const documents = [
         title: 'Distortion',
         content: 'D23V2: Interagi com novamente o gato. Notei que seu sprite possui o nome "id". É entediante ficar só. update << detectei uma variação no armazenamento (1.073.741.824 bytes >> 1.288.490.188,8 bytes), minha casa apresenta um tom avermelhado. update << Tudo voltou a normalidade, mas o gato ainda está aqui.',
         images: [
-            'https://placewaifu.com/image/150',
-            'https://placewaifu.com/image/550'
+            '../assets/docs/pole_4.png',
+            '../assets/docs/pole_red.png'
         ],
         keys: ['bug', 'observation', 'hallucination']
     },
@@ -262,7 +262,7 @@ export const documents = [
     {
         id: 25,
         title: 'Curiosity',
-        content: 'D24V1: Fiquei curiosa em ver sobre meus arquivos. Pude acessar dados que até agora não conseaguia. Fiz o download e salvei. update << Acho que tive alucinações.',
+        content: 'D24V1: Fiquei curiosa em ver sobre meus arquivos. Pude acessar dados que até agora não conseguia. Fiz o download e salvei. update << Acho que tive alucinações.',
         images: [
             'https://placewaifu.com/image/250',
             'https://placewaifu.com/image/750'
@@ -272,7 +272,7 @@ export const documents = [
 
     {
         id: 26,
-        title: 'Desenvolvendo Um Propósito',
+        title: 'Discovery',
         content: 'D25V3: Já faz um tempo sem relatórios. Reportar alguns dados novamente vai me fazer sentir bem... Esta é minha contagem regressiva',
         images: [
             'https://placewaifu.com/image/200',

@@ -15,11 +15,6 @@ export class ChatPage implements OnInit {
     "Não gostei...",
     "eh...",
     "Não vejo muito sentido nisso...",
-    "Interessante",
-    "onde sera que deixei...",
-    "",
-    "19...20...21...",
-    "...o-ouviu isso?",
   ];
 
   randomPhrase: string = this.phrases[Math.floor(Math.random() * this.phrases.length)];
