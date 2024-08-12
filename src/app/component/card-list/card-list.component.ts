@@ -55,7 +55,6 @@ export class CardListComponent implements OnInit {
     }
   }
 
-
   playAudio(audioPath: string): void {
     this.stopAudio();
     this.audio.src = audioPath;
