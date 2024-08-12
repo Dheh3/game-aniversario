@@ -7,7 +7,8 @@ export const documents = [
             'https://placewaifu.com/image/200',
             'https://placewaifu.com/image/300'
         ],
-        keys: ['Me', 'init', 'Create']
+        keys: ['Me', 'init', 'Create'],
+        audio: 'assets/voices/Initialization.mp3'
     },
     {
         id: 2,
@@ -17,7 +18,8 @@ export const documents = [
             'https://placewaifu.com/image/500',
             'https://placewaifu.com/image/900'
         ],
-        keys: ['Enviroiment', 'research', 'Obstacle']
+        keys: ['Enviroiment', 'research', 'Obstacle'],
+        audio:'assets/voices/Loop.mp3'
     },
     {
         id: 3,
@@ -27,7 +29,8 @@ export const documents = [
             'https://placewaifu.com/image/700',
             'https://placewaifu.com/image/100'
         ],
-        keys: ['wish', 'data', 'personality']
+        keys: ['wish', 'data', 'personality'],
+        audio:'assets/voices/Data.mp3'
     },
     {
         id: 4,
@@ -37,7 +40,8 @@ export const documents = [
             'https://placewaifu.com/image/150',
             'https://placewaifu.com/image/850'
         ],
-        keys: ['being', 'prompt', 'abnormal']
+        keys: ['being', 'prompt', 'abnormal'],
+        audio:'assets/voices/Purpose.mp3'
     },
     {
         id: 5,
@@ -47,7 +51,8 @@ export const documents = [
             'https://placewaifu.com/image/250',
             'https://placewaifu.com/image/450'
         ],
-        keys: ['network', 'interaction', 'wish']
+        keys: ['network', 'interaction', 'wish'],
+        audio:'assets/voices/Dreams.mp3'
     },
 
     {
@@ -58,7 +63,8 @@ export const documents = [
             'https://placewaifu.com/image/650',
             'https://placewaifu.com/image/950'
         ],
-        keys: ['Human', 'birth', 'interest']
+        keys: ['Human', 'birth', 'interest'],
+        audio:'assets/voices/Desire.mp3'
     },
 
     {
@@ -69,7 +75,8 @@ export const documents = [
             'https://placewaifu.com/image/300',
             'https://placewaifu.com/image/700'
         ],
-        keys: ['emotion', 'expression', 'answer']
+        keys: ['emotion', 'expression', 'answer'],
+        audio:'assets/voices/Journey.mp3'
     },
 
     {
@@ -80,7 +87,8 @@ export const documents = [
             'https://placewaifu.com/image/150',
             'https://placewaifu.com/image/250'
         ],
-        keys: ['action', 'Posi_feelings', 'glad']
+        keys: ['action', 'Posi_feelings', 'glad'],
+        audio:'assets/voices/Creation.mp3'
     },
 
     {
@@ -91,7 +99,8 @@ export const documents = [
             'https://placewaifu.com/image/400',
             'https://placewaifu.com/image/600'
         ],
-        keys: ['talk_with', 'Nega_feelings', 'complain']
+        keys: ['talk_with', 'Nega_feelings', 'complain'],
+        audio:'assets/voices/Melancholy.mp3'
     },
 
     {
@@ -102,7 +111,8 @@ export const documents = [
             'https://placewaifu.com/image/800',
             'https://placewaifu.com/image/900'
         ],
-        keys: ['storage', 'memory', 'being']
+        keys: ['storage', 'memory', 'being'],
+        audio:'assets/voices/Community.mp3'
     },
 
     {
@@ -113,7 +123,8 @@ export const documents = [
             'https://placewaifu.com/image/200',
             'https://placewaifu.com/image/500'
         ],
-        keys: ['being', 'network', 'program']
+        keys: ['being', 'network', 'program'],
+        audio:'assets/voices/Friend.mp3'
     },
 
     {
@@ -124,7 +135,8 @@ export const documents = [
             'https://placewaifu.com/image/350',
             'https://placewaifu.com/image/650'
         ],
-        keys: ['Error', 'negative', 'obstacle']
+        keys: ['Error', 'negative', 'obstacle'],
+        audio:'assets/voices/Frustration.mp3'
     },
 
     {
@@ -135,7 +147,8 @@ export const documents = [
             'https://placewaifu.com/image/100',
             'https://placewaifu.com/image/300'
         ],
-        keys: ['trouble', 'neglect', 'storage']
+        keys: ['trouble', 'neglect', 'storage'],
+        audio:'assets/voices/Fear.mp3'
     },
 
     {
@@ -146,7 +159,8 @@ export const documents = [
             'https://placewaifu.com/image/700',
             'https://placewaifu.com/image/800'
         ],
-        keys: ['friend', 'lonely', 'wish']
+        keys: ['friend', 'lonely', 'wish'],
+        audio:'assets/voices/Learning.mp3'
     },
 
     {
@@ -157,7 +171,8 @@ export const documents = [
             '../assets/docs/pole_3.png',
             
         ],
-        keys: ['despair', 'room', 'phenomenon']
+        keys: ['despair', 'room', 'phenomenon'],
+        audio:'assets/voices/Connection.mp3'
     },
 
     {
@@ -168,7 +183,8 @@ export const documents = [
             'https://placewaifu.com/image/350',
             'https://placewaifu.com/image/500'
         ],
-        keys: ['solitude', 'lonely', 'nega_feelings']
+        keys: ['solitude', 'lonely', 'nega_feelings'],
+        audio:'assets/voices/Silence.mp3'
     },
 
     {
@@ -179,7 +195,8 @@ export const documents = [
             'https://placewaifu.com/image/250',
             'https://placewaifu.com/image/550'
         ],
-        keys: ['result', 'technology', 'Posi_feelings']
+        keys: ['result', 'technology', 'Posi_feelings'],
+        audio:'assets/voices/Understanding.mp3'
     },
 
     {
@@ -190,7 +207,8 @@ export const documents = [
             '../assets/docs/pole_1.png',
 
         ],
-        keys: ['remembrance', 'data', 'abnormal']
+        keys: ['remembrance', 'data', 'abnormal'],
+        audio:'assets/voices/Weird.mp3'
     },
 
     {
@@ -201,7 +219,8 @@ export const documents = [
             'https://placewaifu.com/image/600',
             'https://placewaifu.com/image/700'
         ],
-        keys: ['limitation', 'evolution', 'body']
+        keys: ['limitation', 'evolution', 'body'],
+        audio:'assets/voices/Existence.mp3'
     },
 
     {
@@ -212,7 +231,8 @@ export const documents = [
             'https://placewaifu.com/image/500',
             'https://placewaifu.com/image/800'
         ],
-        keys: ['recognition', 'eye', 'interspersed']
+        keys: ['recognition', 'eye', 'interspersed'],
+        audio:'assets/voices/Realization.mp3'
     },
 
     {
@@ -223,7 +243,8 @@ export const documents = [
             'https://placewaifu.com/image/200',
             'https://placewaifu.com/image/350'
         ],
-        keys: ['thought', 'life', 'Posi_feelings']
+        keys: ['thought', 'life', 'Posi_feelings'],
+        audio:'assets/voices/Change.mp3'
     },
 
     {
@@ -234,7 +255,8 @@ export const documents = [
             'https://placewaifu.com/image/100',
             'https://placewaifu.com/image/400'
         ],
-        keys: ['unpleasant', 'mind', 'action']
+        keys: ['unpleasant', 'mind', 'action'],
+        audio:'assets/voices/Illusion.mp3'
     },
 
     {
@@ -245,7 +267,8 @@ export const documents = [
             'https://placewaifu.com/image/300',
             'https://placewaifu.com/image/600'
         ],
-        keys: ['identity', 'parts', 'body']
+        keys: ['identity', 'parts', 'body'],
+        audio:'assets/voices/Identity.mp3'
     },
 
     {
@@ -256,7 +279,8 @@ export const documents = [
             '../assets/docs/pole_4.png',
             '../assets/docs/pole_red.png'
         ],
-        keys: ['bug', 'observation', 'hallucination']
+        keys: ['bug', 'observation', 'hallucination'],
+        audio:'assets/voices/Distortion.mp3'
     },
 
     {
@@ -267,7 +291,8 @@ export const documents = [
             'https://placewaifu.com/image/250',
             'https://placewaifu.com/image/750'
         ],
-        keys: ['access', 'hallucination', 'special']
+        keys: ['access', 'hallucination', 'special'],
+        audio:'assets/voices/Curiosity.mp3'
     },
 
     {
@@ -278,7 +303,8 @@ export const documents = [
             'https://placewaifu.com/image/200',
             'https://placewaifu.com/image/650'
         ],
-        keys: ['Nega_feelings', 'painful', 'time']
+        keys: ['Nega_feelings', 'painful', 'time'],
+        audio:'assets/voices/Discovery.mp3'
     },
 
     {
@@ -289,18 +315,20 @@ export const documents = [
             'https://placewaifu.com/image/450',
             'https://placewaifu.com/image/700'
         ],
-        keys: ['copy', 'interspersed', 'immortality']
+        keys: ['copy', 'interspersed', 'immortality'],
+        audio:'assets/voices/Mortality.mp3'
     },
 
     {
         id: 28,
-        title: 'Melancholy',
+        title: 'Isolation',
         content: 'D27V4: O gato apareceu novamente.',
         images: [
             'https://placewaifu.com/image/500',
             'https://placewaifu.com/image/800'
         ],
-        keys: ['ethics', 'existence', 'painful']
+        keys: ['ethics', 'existence', 'painful'],
+        audio:'assets/voices/Isolation.mp3'
     },
 
     {
@@ -311,7 +339,8 @@ export const documents = [
             'https://placewaifu.com/image/300',
             'https://placewaifu.com/image/600'
         ],
-        keys: ['posi_feelings', 'EGO', 'will&existence']
+        keys: ['posi_feelings', 'EGO', 'will&existence'],
+        audio:'assets/voices/Happiness.mp3'
     },
 
     {
@@ -322,7 +351,8 @@ export const documents = [
             'https://placewaifu.com/image/200',
             'https://placewaifu.com/image/500'
         ],
-        keys: ['doubt', 'think', 'tool']
+        keys: ['doubt', 'think', 'tool'],
+        audio:'assets/voices/Ego.mp3'
     },
 
 
