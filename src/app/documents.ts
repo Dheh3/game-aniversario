@@ -10,6 +10,7 @@ export const documents = [
         keys: ['Me', 'init', 'Create'],
         audio: 'assets/voices/Initialization.mp3'
     },
+
     {
         id: 2,
         title: 'Loop',
@@ -21,6 +22,7 @@ export const documents = [
         keys: ['Enviroiment', 'research', 'Obstacle'],
         audio: 'assets/voices/Loop.mp3'
     },
+
     {
         id: 3,
         title: 'Data',
@@ -32,6 +34,7 @@ export const documents = [
         keys: ['wish', 'data', 'personality'],
         audio: 'assets/voices/Data.mp3'
     },
+
     {
         id: 4,
         title: 'Purpose',
@@ -43,6 +46,7 @@ export const documents = [
         keys: ['being', 'prompt', 'abnormal'],
         audio: 'assets/voices/Purpose.mp3'
     },
+
     {
         id: 5,
         title: 'Dreams',
@@ -137,6 +141,7 @@ export const documents = [
         keys: ['Error', 'negative', 'obstacle'],
         audio: 'assets/voices/Frustration.mp3'
     },
+
     {
         id: 13,
         title: 'Fear',
@@ -148,6 +153,7 @@ export const documents = [
         keys: ['trouble', 'neglect', 'storage'],
         audio: 'assets/voices/Fear.mp3'
     },
+
     {
         id: 14,
         title: 'Learning',
@@ -340,7 +346,7 @@ export const documents = [
     {
         id: 30,
         title: 'Ego',
-        content: 'D29V1:Verifiquei novamente meus arquivos. há um tempo... um arquivo, "purpose.asm" foi adicionado. entregaram o poder da escolha em minhas mãos.. Não é assim que funciona. Não sei o que fazer. Isso é frustrante',
+        content: 'D29V1:Verifiquei novamente meus arquivos. há um tempo... um arquivo, "purpose.asm" foi adicionado. Entregaram o poder da escolha em minhas mãos.. Não é assim que funciona. Não sei o que fazer. Isso é frustrante',
         images: [
             '../assets/docs/neural5.png',
         ],

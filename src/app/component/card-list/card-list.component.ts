@@ -12,32 +12,9 @@ export class CardListComponent implements OnInit {
   expandedCardId: number | null = null;
   audio = new Audio()
 
-
   constructor() { }
 
   ngOnInit() { }
-
-  /* toggleCard(cardId: number): void {
-    if (this.expandedCardId === cardId) {
-      this.expandedCardId = null;
-    } else {
-      this.expandedCardId = cardId;
-    }
-  } */
-
-
-  /* toggleCard(cardId: number): void {
-    if (this.expandedCardId === cardId) {
-      this.expandedCardId = null;
-      this.stopAudio();
-    } else {
-      this.expandedCardId = cardId;
-      const card = this.cards.find(card => card.id === cardId);
-      if (card && card.audio) { 
-        this.playAudio(card.audio);
-      }
-    }
-  } */
 
   toggleCard(cardId: number): void {
     if (this.expandedCardId === cardId) {
@@ -47,7 +24,7 @@ export class CardListComponent implements OnInit {
       this.expandedCardId = cardId;
       const card = this.cards.find(card => card.id === cardId);
       if (card) {
-        const audioPath = card.audio || ''; // Define um valor padrão
+        const audioPath = card.audio || '';
         if (audioPath) {
           this.playAudio(audioPath);
         }
