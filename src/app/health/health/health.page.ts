@@ -9,7 +9,7 @@ import { DialogueOption } from 'src/app/phrases';
 })
 export class HealthPage implements OnInit {
 
-  randImg:string = '../../../assets/spirtes/cpu.png'
+  randImg:string = '../../../assets/spirtes/wired.png'
   dialogue: any;
 
   constructor(private dialogueService: DialogueService) { }

@@ -135,9 +135,9 @@ export const phrases2 = {
         text: 'Nós nos veremos novamente antes do fim.',
         options: [
             { text: 'O que?', next: 'end2' },
-            { text: 'record', next: 'end2' },
-            { text: 'prompt', next: 'end2' },
-            { text: 'chaos', next: 'end2' },
+            { text: 'doubt', next: 'end2' },
+            { text: 'think', next: 'end2' },
+            { text: 'tool', next: 'end2' },
         ]
     },
 
