@@ -10,7 +10,7 @@ export class KeyPage implements OnInit {
   glitch:string[]=[
     "[_className=!]",
     ".... . .-.. .-.. ---",
-    "console",
+    "Um9tYW4gw6AgY2xlZg==",
     "memex",
     "RUdP",
     "!!!!!",

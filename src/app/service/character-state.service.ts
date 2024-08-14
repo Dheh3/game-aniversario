@@ -5,7 +5,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class CharacterStateService {
-  private characterImageSubject = new BehaviorSubject<string>('../../assets/spirtes/Neutral.png');
+  private characterImageSubject = new BehaviorSubject<string>('../../assets/spirtes/default.png');
   characterImage$ = this.characterImageSubject.asObservable();
 
   setCharacterImage(img: string) {

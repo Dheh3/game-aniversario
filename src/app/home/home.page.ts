@@ -9,7 +9,7 @@ import { CharacterStateService } from '../service/character-state.service';
 })
 export class HomePage {
 
-  img: string = '../../assets/spirtes/Neutral.png';
+  img: string = '../../assets/spirtes/neutralt.png';
   talking: string = '../../assets/spirtes/talking.png'
 
   phrases: any[] = [
@@ -32,27 +32,27 @@ export class HomePage {
     });
   }
 
-  async talk() {
+  /* async talk() {
 
     let isTalking = true;
     const intervalId = setInterval(() => {
       if (isTalking) {
         this.img = '../../assets/spirtes/talking.png';
       } else {
-        this.img = '../../assets/spirtes/Neutral.png';
+        this.img = '../../assets/spirtes/neutralt.png';
       }
       isTalking = !isTalking; 
     }, 250); 
   
     setTimeout(() => {
       clearInterval(intervalId);
-      this.img = '../../assets/spirtes/Neutral.png'; 
+      this.img = '../../assets/spirtes/neutralt.png'; 
     }, 2000);
 
-  }
+  } */
 
   async getRandom() {
-    this.talk()
+    //this.talk()
     const randomIndex = Math.floor(Math.random() * this.phrases.length);
     this.randomPhrase = this.phrases[randomIndex];
     setTimeout(async () => {

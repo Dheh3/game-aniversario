@@ -16,7 +16,7 @@ ion-content {
     img {
       image-rendering: pixelated;
       height: 360px;
-      filter: grayscale(1);
+      //filter: grayscale(1);
       animation: breath 10s ease 0s infinite normal forwards;
     }
   }
