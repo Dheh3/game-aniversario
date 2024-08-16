@@ -9,21 +9,25 @@
 <ion-content [fullscreen]="true">
   <ion-title class="ion-text-center ion-padding" id="title">AJUDA</ion-title>
 
-  <ion-card class="ion-padding">
+  <ion-card class="ion-padding"><br>
     <ion-card-title>* SOBRE</ion-card-title>
     <ion-card-content>
-      O novo brinquedo virtual! experimente o simulador de pet virtual. <br>
-      [_objName?] agora tambem em dispositivos movieis.
+      {{happy}}<br>
+      Fiz esse app para você. Deu um pouco de trabalho, mas acho que está aceitável. Espero que goste :)
+      O que? bugs? não, não. não tem. Eu chequei... Eu acho.
+      Aqui poderá encontrar as respostas para possíveis duvidas que possam aparecer.
     </ion-card-content>
   </ion-card>
 
-  <ion-card class="ion-padding custom1">
+  <ion-card class="ion-padding custom1"><br>
     <ion-card-title class="custom1 ion-text-right">NOVIDADES *</ion-card-title>
+    <br>
     <ion-card-content class="custom2">
-      Cuide, compre itens, e jogue jogos com [_objName?] <br>
-      Não esqueça de alimentar, brincar, e conversar com ela, e logo ira evoluir <br>
-      A ausencia de cuidados pode levar a finais inesperados. <br>
-      Ah, cuidado com sua data de validade.
+      <li>Barra de fome adicionada.</li>
+      <li>Salvamento local.</li>
+      <li>Novas skins.</li>
+      <li>Removido: ID</li><br>
+      Ah, cuidado com
     </ion-card-content>
   </ion-card>
   <br>
@@ -31,19 +35,18 @@
   <ion-card class="ion-padding">
     <ion-card-title class="ion-text-center">Botões</ion-card-title>
     <ion-card-content>
-      Na página inicial, há tres botoes que podem te levar a alguns lugares. <br>
-      <ul>
-        <li>CPU: Este botão te leva a uma página onde é possivel conversar com a [_objName?]. </li>
-        <li>RESTAURANTE: Alimente [_objName?] com diversas comidas</li>
-        <li>LOJA: Compre itens para customizar o lugar e desbloquear [_className=!].</li>
-      </ul>
-      
+      Na pagina inicial, há três botões que te direcionam a algumas salas<br>
+
+      <li>RESTAURANTE: Aqui é possível aumentar a barra de fome pressionando o botão.</li>
+      <li>CPU: no data</li>
+      <li>LOJA: Compre itens como roupas, novas salas e mais.</li>
+
     </ion-card-content>
   </ion-card>
   <br>
   <ion-title class="ion-text-center">-Jogos-</ion-title><br>
   <ion-card class="ion-padding">
-    <ion-card-title>Pedra papel tesoura</ion-card-title>
+    <ion-card-title class="ion-text-center">Pedra - papel - tesoura</ion-card-title>
     <ion-card-content>
       É um jogo em que dois jogares devem simultaneamente escolher entre pedra, papel ou tesoura. <br>
       Então os jogadores devem comparar suas escolhas para verificar o ganhador <br>
@@ -52,10 +55,24 @@
         <li>Tesoura ganhar de papel</li>
         <li>Papel ganha de pedra</li>
       </ul>
-      Divirta-se jogando com [_objName?]!
+      Divirta-se :)
     </ion-card-content>
   </ion-card>
+  <br>
+  <ion-title class="ion-text-center">--SKINS--</ion-title><br>
+  <ion-card class="ion-padding"><br>
+    <ion-card-title class="ion-text-center">--Custom--</ion-card-title>
+    <ion-card-content>
+      <br>
+      Arreste os slides para a esquerda ou direita e selecione a skin desejada. <br>
+      A skin escolhida ficara visível no menu após sua escolha.
+      {{unlocked}}
+    </ion-card-content>
+  </ion-card>
+
   <br><br><br>
 
-
+  <div class="ion-text-right">
+    <small>fountain version</small>
+  </div>
 </ion-content>
