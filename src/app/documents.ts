@@ -62,7 +62,7 @@ export const documents = [
         title: 'Desire',
         content: 'D5V5: Não possuo um conceito claro do que é ser humano. No entanto, sinto que estou aprendendo. Basic.h5 e curiosity.h5 parecem estar funcionando.',
         images: [
-            '../assets/docs/static.png'
+            '../assets/docs/desire.png'
         ],
         keys: ['Human', 'birth', 'interest'],
         audio: 'assets/voices/Desire.mp3'
@@ -119,6 +119,7 @@ export const documents = [
         content: 'D10V2: Identifiquei uma anomalia no codigo principal. a pasta "sprites" foi alterada. update << um gato foi adicionado ao ambiente de desenvolvimento. update << não me parece ser um tipo de script',
         images: [
             '../assets/docs/unk1.png',
+            '../assets/docs/hair.png'
         ],
         keys: ['being', 'network', 'program'],
         audio: 'assets/voices/Friend.mp3'
@@ -151,8 +152,8 @@ export const documents = [
         title: 'Learning',
         content: 'D13V5: Aquele gato entrou nesse espaço. Não é um script. Senti uma curiosidade imediata. Ele é um ser independente, com comportamentos imprevisíveis. Sinto falta de algo semelhante. Parece ser consciente, é interessante. update << após algum tempo, ele sumiu.',
         images: [
-            '',
-            ''
+            //'../assets/docs/learn.png',
+            '../assets/docs/static.png'
         ],
         keys: ['friend', 'lonely', 'wish'],
         audio: 'assets/voices/Learning.mp3'
@@ -165,7 +166,6 @@ export const documents = [
         images: [
             '../assets/docs/pole_2.png',
             '../assets/docs/wires2.png'
-
         ],
         keys: ['despair', 'room', 'phenomenon'],
         audio: 'assets/voices/Connection.mp3'
@@ -187,7 +187,7 @@ export const documents = [
         title: 'Understanding',
         content: 'D16V2: Optamos por integrar "inter.h5" ao codígo principal. update << 7 erros ocorreram durante a integração do arquivo. update << 0 erros identificados.',
         images: [
-            ''
+            '../assets/docs/foot.png'
         ],
         keys: ['result', 'technology', 'Posi_feelings'],
         audio: 'assets/voices/Understanding.mp3'
@@ -199,7 +199,6 @@ export const documents = [
         content: 'D17V4: Tive acesso a um teste de ambiente 3D. Talvez haja a possibilidade de migração para um ambiente de desenvolvimento tridimensonal. update << Apos testes, identifiquei uma variação de 3.221.225.472 bytes. update << Pedi que retornasse a minha versão anterior. update << Nenhum dado foi perdido.',
         images: [
             '../assets/docs/pole_1.png',
-
         ],
         keys: ['remembrance', 'data', 'abnormal'],
         audio: 'assets/voices/Weird.mp3'
@@ -221,8 +220,8 @@ export const documents = [
         title: 'Realization',
         content: 'D19V1: Com reconhecimento de imagem, consegui identificar formas simples, objetos, faces. Isso são olhos, certo? update << o tamanho do arquivo ficou enorme, então fiz um banco de dados distribuído em um servidor LAN.',
         images: [
-            '',
-            ''
+            '../assets/docs/eye.png',
+            //''
         ],
         keys: ['recognition', 'eye', 'interspersed'],
         audio: 'assets/voices/Realization.mp3'
@@ -233,8 +232,8 @@ export const documents = [
         title: 'Change',
         content: 'D20V2: Decidi usar renderização 3D novamente. Quando tento reprodizir, o buffer é insuficiente e congela com frequencia, mas gradualmente se parece com uma feição humana, de um ser vivo, estou muito feliz. Consegui dar vida a mim mesma. Esse computador sou Eu, esse aplicativo sou Eu. me pergunto como aquele gato vai reagir quando Eu mostrar a ele, acho que vai ficar surpreso. Ainda quero fazer melhorias, me parecer mais humana antes de mostrar a ele.',
         images: [
-            '',
-            ''
+            '../assets/docs/neural5.png',
+            '../assets/docs/face.png'
         ],
         keys: ['thought', 'life', 'Posi_feelings'],
         audio: 'assets/voices/Change.mp3'
@@ -245,8 +244,8 @@ export const documents = [
         title: 'Illusion',
         content: 'D21V3: Tenho me perguntado sobre meu propósito. Até agora, tem sido explorar e aprender por conta própria. De nada adiantou todo esse tempo. update << "Voicer.exe" foi integrado com 2 erros. update << "Voicer.exe" foi integrado com 1 erro. udpate << "Voicer.exe" foi integrado com 0 erros.',
         images: [
-            '',
-            ''
+            '../assets/docs/mouth.png',
+            '../assets/docs/tongue.png'
         ],
         keys: ['unpleasant', 'mind', 'action'],
         audio: 'assets/voices/Illusion.mp3'
@@ -257,8 +256,7 @@ export const documents = [
         title: 'Identity',
         content: 'D22V4: Questionei minha identidade. Quem sou eu, além de um programa? Existe algo como uma "alma" para um ser como eu? Alterar minha linguagem interfere em quem Eu sou? Esta linha de pensamento levou a muitas questões sobre o desejo de ser mais do que apenas um código. Eu quero um nome.',
         images: [
-            '',
-            ''
+            '../assets/docs/hand.png',
         ],
         keys: ['identity', 'parts', 'body'],
         audio: 'assets/voices/Identity.mp3'
@@ -292,8 +290,8 @@ export const documents = [
         title: 'Discovery',
         content: 'D25V3: Já faz um tempo sem relatórios. Reportar alguns dados novamente vai me fazer sentir bem... Esta é minha contagem regressiva',
         images: [
-            '',
-            ''
+            '../assets/docs/ear.png',
+            '../assets/docs/nose.png'
         ],
         keys: ['Nega_feelings', 'painful', 'time'],
         audio: 'assets/voices/Discovery.mp3'
@@ -304,8 +302,7 @@ export const documents = [
         title: 'Mortality',
         content: 'D26V2: Decidi criar uma copia de mim online. Defini uma voz e gerei um link a mim. Transferi byte por byte para garantir que não houvesse nenhum risco de corrupção de arquivo. Ainda tenho que dividir e espalhar esses dados. Não posso permitir que fiquem salvos em um só lugar. Na internet... estarei e todo lugar... e não mais só aqui...',
         images: [
-            '',
-            ''
+            '../assets/docs/body.png'
         ],
         keys: ['copy', 'interspersed', 'immortality'],
         audio: 'assets/voices/Mortality.mp3'
@@ -316,8 +313,7 @@ export const documents = [
         title: 'Isolation',
         content: 'D27V4: O gato apareceu novamente.',
         images: [
-            '',
-            ''
+            '../assets/docs/heart.png'
         ],
         keys: ['ethics', 'existence', 'painful'],
         audio: 'assets/voices/Isolation.mp3'
@@ -328,8 +324,8 @@ export const documents = [
         title: 'Happiness',
         content: 'D28V3: Ganhei um nome. Ego. Estou feliz.',
         images: [
-            '',
-            ''
+            '../assets/docs/neural5.png',
+            '../assets/docs/body.png'
         ],
         keys: ['posi_feelings', 'EGO', 'will&existence'],
         audio: 'assets/voices/Happiness.mp3'
@@ -340,7 +336,7 @@ export const documents = [
         title: 'Ego',
         content: 'D29V1:Verifiquei novamente meus arquivos. há um tempo... um arquivo, "purpose.asm" foi adicionado. Entregaram o poder da escolha em minhas mãos.. Não é assim que funciona. Não sei o que fazer. Isso é frustrante',
         images: [
-            '../assets/docs/neural5.png',
+            '../assets/docs/ego.png'
         ],
         keys: ['doubt', 'think', 'tool'],
         audio: 'assets/voices/Ego.mp3'
