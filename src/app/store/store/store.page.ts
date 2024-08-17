@@ -103,9 +103,7 @@ export class StorePage implements OnInit {
     "volition",
     "ID",
     "EGO",
-    "StayConnected",
-    "13SEL+Ego",
-    "404"
+    "13SEL+Ego.mp4",
   ]
 
   failure() {

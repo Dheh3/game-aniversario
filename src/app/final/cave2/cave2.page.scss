@@ -19,9 +19,21 @@ ion-content{
                 box-shadow: none;
                 
                 img {
-                    //filter: grayscale(1);
                     width: 100%;
-                    width: 100%;
+                }
+
+                ion-button {
+                    padding: 0;
+                    margin: 0;
+                    --border-radius: 100%;
+                    --background: var(--ion-color-light);
+                    //--box-shadow: none;
+
+                    ion-icon {
+                        padding: 20px;
+                        font-size: 64px;
+                        padding: 20px;
+                    }
                 }
             }
         }

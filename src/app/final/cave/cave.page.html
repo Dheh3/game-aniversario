@@ -2,17 +2,26 @@
   <swiper-container class="ion-text-center" navigation="true" slides-per-view="1" effect="slide" loop="true">
     <swiper-slide>
       <ion-card>
-        <img [src]="path1" [routerLink]="route1">
+        <img [src]="path1"><br>
+        <ion-button id="present-alert" [routerLink]="route1">
+          <ion-icon slot="icon-only" name="arrow-up" color="primary"></ion-icon>
+        </ion-button>
       </ion-card>
     </swiper-slide>
     <swiper-slide>
       <ion-card>
-        <img [src]="path2" [routerLink]="route2">
+        <img [src]="path2"><br>
+        <ion-button id="present-alert" [routerLink]="route2">
+          <ion-icon slot="icon-only" name="arrow-up" color="primary"></ion-icon>
+        </ion-button>
       </ion-card>
     </swiper-slide>
     <swiper-slide>
       <ion-card>
-        <img [src]="path3" [routerLink]="route3">
+        <img [src]="path3"><br>
+        <ion-button id="present-alert" [routerLink]="route3">
+          <ion-icon slot="icon-only" name="arrow-up" color="primary"></ion-icon>
+        </ion-button>
       </ion-card>
     </swiper-slide>
   </swiper-container>

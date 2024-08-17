@@ -1,28 +1,44 @@
-ion-content{
+ion-content {
     --background: var(--ion-color-primary);
+
     swiper-container {
         //border: red 1px solid;
-        
+
         box-shadow: none !important;
         height: 100vh;
         --swiper-theme-color: var(--ion-color-light);
+
         swiper-slide {
-            
+
             box-shadow: none !important;
             border-radius: 20%;
             padding: 0;
             margin: 0;
+
             ion-card {
+                
                 padding: 0;
                 margin: 0;
                 background: transparent;
                 box-shadow: none;
-                
+
                 img {
-                    //filter: grayscale(1);
-                    width: 100%;
                     width: 100%;
                 }
+
+                ion-button {
+                    padding: 0;
+                    margin: 0;
+                    --border-radius: 100%;
+                    --background: var(--ion-color-light);
+
+                    ion-icon {
+                        padding: 20px;
+                        font-size: 64px;
+                        padding: 20px;
+                    }
+                }
+
             }
         }
     }

@@ -26,7 +26,7 @@ export class Cave3Page implements OnInit {
     '../../../assets/cave/door9.png',
     '../../../assets/cave/door10.png',
   ]
-  randRoutes: string[] = ['/cave', '/cave2','/cave4'];
+  randRoutes: string[] = ['/cave', '/cave2','/hell'];
   
   constructor() { }
 

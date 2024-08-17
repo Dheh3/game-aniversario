@@ -56,10 +56,6 @@ const routes: Routes = [
     loadChildren: () => import('./final/cave3/cave3.module').then( m => m.Cave3PageModule)
   },
   {
-    path: 'cave4',
-    loadChildren: () => import('./final/cave4/cave4.module').then( m => m.Cave4PageModule)
-  },
-  {
     path: 'hell',
     loadChildren: () => import('./final/hell/hell.module').then( m => m.HellPageModule)
   },
