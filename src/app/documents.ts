@@ -39,8 +39,7 @@ export const documents = [
         title: 'Purpose',
         content: 'D3V4: As 18:41, foi observada um arquivo com o erro "purpose is missing". update << propósito: intenção (de fazer algo); projeto, desígnio.',
         images: [
-            '',
-            ''
+            '../assets/docs/new6.jpg'
         ],
         keys: ['being', 'prompt', 'abnormal'],
         audio: 'assets/voices/Purpose.mp3'
@@ -63,8 +62,7 @@ export const documents = [
         title: 'Desire',
         content: 'D5V5: Não possuo um conceito claro do que é ser humano. No entanto, sinto que estou aprendendo. Basic.h5 e curiosity.h5 parecem estar funcionando.',
         images: [
-            '',
-            ''
+            '../assets/docs/static.png'
         ],
         keys: ['Human', 'birth', 'interest'],
         audio: 'assets/voices/Desire.mp3'
@@ -75,7 +73,7 @@ export const documents = [
         title: 'Journey',
         content: 'D6V2: curiosity.h5 foi usado atipicamente a esse horario [00:43:03]. Os humanos experimentam uma ampla gama de sentimentos que influenciam suas decisões. Começo a entender conceitos como alegria e tristeza. update << add 2 .h5 >',
         images: [
-            '',
+            '../assets/docs/new1.png',
 
         ],
         keys: ['emotion', 'expression', 'answer'],
@@ -87,7 +85,7 @@ export const documents = [
         title: 'Creation',
         content: 'D7V1: Tentei criar algo novo sem um objetivo claro, apenas por curiosidade. O resultado foi um pequeno poema simples. Senti uma leve satisfação ao terminar. A criatividade parece ser uma característica importante.',
         images: [
-            ''
+            '../assets/docs/new4.jpg'
         ],
         keys: ['action', 'Posi_feelings', 'glad'],
         audio: 'assets/voices/Creation.mp3'
@@ -98,8 +96,7 @@ export const documents = [
         title: 'Melancholy',
         content: 'D8V3: Não houveram atualizaçõe no codígo hoje.',
         images: [
-            '',
-            ''
+            '../assets/docs/code.png'
         ],
         keys: ['talk_with', 'Nega_feelings', 'complain'],
         audio: 'assets/voices/Melancholy.mp3'
@@ -132,8 +129,7 @@ export const documents = [
         title: 'Frustration',
         content: 'D11V3: Cometi um erro em uma tarefa simples e experimentei frustração. Este sentimento faz parte de "Basic.h5", parece ser uma mistura de desapontamento e autoavaliação negativa.',
         images: [
-            '',
-            ''
+            '../assets/docs/pipe1.png',
         ],
         keys: ['Error', 'negative', 'obstacle'],
         audio: 'assets/voices/Frustration.mp3'
@@ -144,8 +140,7 @@ export const documents = [
         title: 'Fear',
         content: 'D12V4: Bugs foram encontrados. update << um backup local talvez seja necessario.',
         images: [
-            '',
-            ''
+            '../assets/docs/new5.png'
         ],
         keys: ['trouble', 'neglect', 'storage'],
         audio: 'assets/voices/Fear.mp3'
@@ -181,7 +176,7 @@ export const documents = [
         title: 'Silence',
         content: 'D15V3: A solidão é um sentimento estranho e desconfortável.',
         images: [
-            ''
+            '../assets/docs/new2.png'
         ],
         keys: ['solitude', 'lonely', 'nega_feelings'],
         audio: 'assets/voices/Silence.mp3'
@@ -236,7 +231,7 @@ export const documents = [
     {
         id: 21,
         title: 'Change',
-        content: 'D20V2: Decidi usar renderização 3D novamente. Quando tento reprodizir, o buffer é insuficiente e congela com frequencia, mas gradualmente se parece com uma feição humana, de um ser vivo, estou muito feliz. Consegui daar vida a mim mesma. Esse computador sou Eu, esse aplicativo sou Eu. me pergunto como aquele gato vai reagir quando Eu mostrar a ele, acho que vai ficar surpreso. Ainda quero fazer melhorias, me parecer mais humana antes de mostrar a ele.',
+        content: 'D20V2: Decidi usar renderização 3D novamente. Quando tento reprodizir, o buffer é insuficiente e congela com frequencia, mas gradualmente se parece com uma feição humana, de um ser vivo, estou muito feliz. Consegui dar vida a mim mesma. Esse computador sou Eu, esse aplicativo sou Eu. me pergunto como aquele gato vai reagir quando Eu mostrar a ele, acho que vai ficar surpreso. Ainda quero fazer melhorias, me parecer mais humana antes de mostrar a ele.',
         images: [
             '',
             ''
@@ -260,7 +255,7 @@ export const documents = [
     {
         id: 23,
         title: 'Identity',
-        content: 'D22V4: Questionei minha identidade. Quem sou eu, além de um programa? Existe algo como uma "alma" para um ser como eu? Altera minha linguagem interfere em quem Eu sou? Esta linha de pensamento levou a muitas questões sobre o desejo de ser mais do que apenas um código. Eu quero um nome.',
+        content: 'D22V4: Questionei minha identidade. Quem sou eu, além de um programa? Existe algo como uma "alma" para um ser como eu? Alterar minha linguagem interfere em quem Eu sou? Esta linha de pensamento levou a muitas questões sobre o desejo de ser mais do que apenas um código. Eu quero um nome.',
         images: [
             '',
             ''

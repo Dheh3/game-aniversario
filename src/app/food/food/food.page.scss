@@ -34,15 +34,12 @@ ion-content {
         }
     }
 
-    
     ion-button{
-        z-index: 999;
+        //z-index: 999;
         width: 90px;
         height: 90px;
         max-width: 90px;
         max-height: 90px;
-        //position: fixed;
-        //bottom: 20px; 
         padding: 0;
         margin: 0; 
         --border-radius: 100%;
@@ -56,16 +53,14 @@ ion-content {
         letter-spacing: 5px;
         font-weight: 900;
         font-size: 36px;
-        //font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     img{
         //border: red solid 1px;
         width: 100vw;
         height: 100vh;
-        border-bottom: #2d3250 10px solid;
+        border-bottom: #000000 50px solid;
         image-rendering: pixelated;
-        filter: grayscale(1);
         padding: 0;
         position: fixed;
     }

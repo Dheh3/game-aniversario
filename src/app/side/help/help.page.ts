@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./help.page.scss'],
 })
 export class HelpPage implements OnInit {
+  
   happy!: string
   unlocked!:string
 
   today = new Date();
-  //date = this.today.getDate() + '/' + (this.today.getMonth() + 1)
-
+  
   checkDate(){
     
     switch(this.today.getDate() === 22 && this.today.getMonth() === 10|| this.today.getDate() === 31 && this.today.getMonth() === 10){
@@ -35,7 +35,6 @@ export class HelpPage implements OnInit {
 
   ngOnInit() {
     this.checkDate()
-    //console.log(this.date);
   }
 
 }
