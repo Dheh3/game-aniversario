@@ -1,5 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { FeedService } from 'src/app/service/feed.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-food',
@@ -9,45 +10,28 @@ import { FeedService } from 'src/app/service/feed.service';
 export class FoodPage implements OnInit {
 
   eating: string = '../../../assets/spirtes/eating.png';
-  private feedInterval: any;
-  private hungerInterval: any;
+  hungerSubscription: Subscription | undefined;
+  hungerLevel: number = 10;
 
   constructor(private feedService: FeedService) { }
 
   ngOnInit() {
-    this.startHunger()
+    this.hungerSubscription = this.feedService.sharedHunger.subscribe(level => {
+      this.hungerLevel = level;
+    });
   }
-  ngOnDestroy() {
 
+  ngOnDestroy() {
+    if (this.hungerSubscription) {
+      this.hungerSubscription.unsubscribe();
+    }
   }
 
   feed() {
-    if (this.feedService.currentHunger < 500) {
-      this.feedService.setSharedHunger(this.feedService.currentHunger + 10);
+    if (this.hungerLevel < 500) {
+      this.feedService.setSharedHunger(this.hungerLevel + 10);
     } else {
-      this.feedService.setSharedHunger(this.feedService.currentHunger + 0);
-      console.log('limite')
-    }
-
-  }
-
-  startHunger() {
-
-    this.hungerInterval = setInterval(() => {
-
-      if (this.feedService.currentHunger > 0) {
-        this.feedService.setSharedHunger(this.feedService.currentHunger - 1);
-        console.log(this.feedService.currentHunger)
-      } else {
-        clearInterval(this.hungerInterval);
-        console.log(this.feedService.currentHunger)
-      }
-    }, 10000);
-  }
-
-  clearInterval() {
-    if (this, this.hungerInterval) {
-      clearInterval(this.hungerInterval)
+      console.log('limite');
     }
   }
 

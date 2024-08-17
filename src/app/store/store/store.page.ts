@@ -25,12 +25,12 @@ export class StorePage implements OnInit {
   constructor(private coinService: CoinsService, private toastController: ToastController) { }
 
   ngOnInit() {
-    //this.loadPurchaseState()
+    this.loadPurchaseState()
   }
 
   //desativar em dev
 
-  /* loadPurchaseState() {
+  loadPurchaseState() {
     const keyPurchased = localStorage.getItem('keyPurchased');
     const docPurchased = localStorage.getItem('docPurchased');
 
@@ -45,7 +45,7 @@ export class StorePage implements OnInit {
       this.colorDoc = "tertiary";
       this.cssBlaDoc = 'ble';
     }
-  } */
+  }
 
   async presentToast(message: string) {
     const toast = await this.toastController.create({
@@ -62,8 +62,8 @@ export class StorePage implements OnInit {
       this.isKeyActive = false
       this.colorKey = "tertiary"
       this.cssBlaKey = 'bleKey'
-      //desativar em dev
 
+      //desativar em dev
       localStorage.setItem('keyPurchased', 'true')
       console.log(this.isKeyActive)
     } else if (this.isKeyActive === false) {
@@ -81,6 +81,7 @@ export class StorePage implements OnInit {
       this.isDocActive = false
       this.colorDoc = "tertiary"
       this.cssBlaDoc = 'ble'
+
       //desativar em dev
       localStorage.setItem('docPurchased', 'true')
       console.log(this.isDocActive)
