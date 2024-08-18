@@ -2,29 +2,24 @@ export const phrases = {
     win: [
         'Perdi...',
         'Hmmm...',
-        '...',
-        'ah...',
-        'humpf!',
-        'heeh...',
+        'Falhei...',
+        'Posso ganhar a hora que quiser',
         'huh...'
     ],
     lose: [
-        'hehehe',
-        'hihi',
-        'Parece que alguem perdeu.',
-        '*pfff*',
-        'Ponto pra mim',
-        'Está jogando serio?'
+        'Um ponto para mim',
+        'Ganhei',
+        'Você perdeu',
+        'Não é facil me vencer',
     ],
     draw: [
         'Empate',
         'empate... vamos de novo',
         'um empate',
-        'lembrar...'
     ],
     gameEndWin: 'Você ganhou...',
-    gameEndLose: 'Venci?!',
-    gameEndDraw: 'empatamos... mais uma?'
+    gameEndLose: 'Eu Venci',
+    gameEndDraw: 'empatamos...'
 };
 
 export interface DialogueOption {

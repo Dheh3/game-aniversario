@@ -37,11 +37,10 @@ export class ClickerPage implements OnInit {
   ];
 
   checkPass(password: string) {
- 
+
     if (password === '4-7897-1343-1' ||
       password === '4789713431' ||
-      password === '4 7897 1343 1' ||
-      password === 'dev') {
+      password === '4 7897 1343 1') {
       this.closed = this.open
       this.routeClosed = this.routeOpen
       this.lockClosed = this.lockOpen
