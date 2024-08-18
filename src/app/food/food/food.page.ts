@@ -30,8 +30,6 @@ export class FoodPage implements OnInit {
   feed() {
     if (this.hungerLevel < 500) {
       this.feedService.setSharedHunger(this.hungerLevel + 10);
-    } else {
-      console.log('limite');
     }
   }
 

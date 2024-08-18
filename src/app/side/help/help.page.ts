@@ -16,17 +16,17 @@ export class HelpPage implements OnInit {
     
     switch(this.today.getDate() === 22 && this.today.getMonth() === 10|| this.today.getDate() === 31 && this.today.getMonth() === 10){
       case true:
-        console.log("working")
+
         this.happy = 'Feliz aniversário'
         this.unlocked = 'oh! Já estão todas liberadas? Feliz aniversário! ' 
         break
       case false:
-        console.log("Not working")
+
         this.happy = ''
         break
 
       default:
-        console.log("ehh...")
+        console.log("ops...")
 
     }
   }

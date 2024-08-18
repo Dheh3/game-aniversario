@@ -37,17 +37,14 @@ export class ClickerPage implements OnInit {
   ];
 
   checkPass(password: string) {
-    console.log('iniciando')
+ 
     if (password === '4-7897-1343-1' ||
       password === '4789713431' ||
       password === '4 7897 1343 1' ||
       password === 'dev') {
-      console.log('ok')
       this.closed = this.open
       this.routeClosed = this.routeOpen
       this.lockClosed = this.lockOpen
-    } else {
-      console.log('não ok...')
     }
   }
 }

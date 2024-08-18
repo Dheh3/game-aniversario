@@ -65,13 +65,13 @@ export class StorePage implements OnInit {
 
       //desativar em dev
       localStorage.setItem('keyPurchased', 'true')
-      console.log(this.isKeyActive)
+
     } else if (this.isKeyActive === false) {
       this.presentToast('Already unlocked');
     }
     else {
       this.lowCoins();
-      console.log(this.isKeyActive)
+
     }
   }
 
@@ -84,13 +84,13 @@ export class StorePage implements OnInit {
 
       //desativar em dev
       localStorage.setItem('docPurchased', 'true')
-      console.log(this.isDocActive)
+
     } else if (this.isDocActive === false) {
       this.presentToast('Already unlocked');
     }
     else {
       this.lowCoins();
-      console.log(this.isDocActive)
+
     }
 
   }
@@ -104,13 +104,12 @@ export class StorePage implements OnInit {
     "ID",
     "EGO",
     "13SEL+Ego.mp4",
-    
   ]
 
   failure() {
     let randErros = this.errors[Math.floor(Math.random() * this.errors.length)]
     this.presentToast("error " + randErros);
-    console.log(randErros)
+
   }
 
 }

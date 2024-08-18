@@ -16,7 +16,6 @@ export class HealthPage implements OnInit {
 
   ngOnInit() {
     this.dialogue = this.dialogueService.getDialogue();
-    console.log(this.randImg);
   }
 
   chooseOption(option: DialogueOption) {

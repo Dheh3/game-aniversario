@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.dhehe.engine',
-  appName: 'engine',
+  appName: 'Engine',
   webDir: 'www'
 };
 

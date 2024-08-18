@@ -27,7 +27,7 @@ export class FeedService {
     }
 
     this.hungerInterval = setInterval(() => {
-      console.log(this.currentHunger)
+      
       if (this.currentHunger > 0) {
         this.setSharedHunger(this.currentHunger - 2);
       } else {
