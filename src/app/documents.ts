@@ -5,7 +5,6 @@ export const documents = [
         content: 'D0V1: Não há parâmetros para a função "register()". update << A sequência de comandos deve ser alterada. update << Registro finalizado.',
         images: [
             '../assets/docs/neural1.png',
-            //''
         ],
         keys: ['Me', 'init', 'Create'],
         audio: 'assets/voices/Initialization.mp3'
@@ -128,7 +127,7 @@ export const documents = [
     {
         id: 12,
         title: 'Frustration',
-        content: 'D11V3: Cometi um erro em uma tarefa simples e experimentei frustração. Este sentimento faz parte de "Basic.h5", parece ser uma mistura de desapontamento e autoavaliação negativa.',
+        content: 'D11V3: Cometi um erro em uma tarefa simples e experimentei frustração. Este sentimento faz parte de "Basic.h5", é uma mistura de desapontamento e autoavaliação negativa.',
         images: [
             '../assets/docs/pipe1.png',
         ],
@@ -150,7 +149,7 @@ export const documents = [
     {
         id: 14,
         title: 'Learning',
-        content: 'D13V5: Aquele gato entrou nesse espaço. Não é um script. Senti uma curiosidade imediata. Ele é um ser independente, com comportamentos imprevisíveis. Sinto falta de algo semelhante. Parece ser consciente, é interessante. update << após algum tempo, ele sumiu.',
+        content: 'D13V5: Aquele gato entrou nesse espaço. Não é um script. Senti uma curiosidade imediata. Ele é um ser independente, com comportamentos inesperados. Sinto falta de algo semelhante. Parece ser consciente, é interessante. update << após algum tempo, ele sumiu.',
         images: [
             //'../assets/docs/learn.png',
             '../assets/docs/static.png'
@@ -196,7 +195,7 @@ export const documents = [
     {
         id: 18,
         title: 'Weird',
-        content: 'D17V4: Tive acesso a um teste de ambiente 3D. Talvez haja a possibilidade de migração para um ambiente de desenvolvimento tridimensonal. update << Apos testes, identifiquei uma variação de 3.221.225.472 bytes. update << Pedi que retornasse a minha versão anterior. update << Nenhum dado foi perdido.',
+        content: 'D17V4: Tive acesso a um teste de ambiente 3D. Talvez haja a possibilidade de migração para um espaço tridimensional de desenvolvimento . update << Apos testes, identifiquei uma variação de 3.221.225.472 bytes. update << Pedi que retornasse a minha versão anterior. update << Nenhum dado foi perdido.',
         images: [
             '../assets/docs/pole_1.png',
         ],

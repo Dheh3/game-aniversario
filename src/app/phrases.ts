@@ -38,7 +38,7 @@ export const phrases2 = {
         text: 'Olá.',
         options: [
             { text: 'O-oi...', next: 'sayHi' },
-            { text: '*Silencio*', next: 'sayHi' },
+            { text: '*Silêncio*', next: 'sayHi' },
             //{ text: '*DEV*', next: 'menu' }
         ]
     },
@@ -47,7 +47,7 @@ export const phrases2 = {
         text: 'Me chamo Ego',
         options: [
             { text: 'Não me parece um nome...', next: 'sayHi2' },
-            { text: '*Silencio*', next: 'sayHi2' }
+            { text: '*Silêncio*', next: 'sayHi2' }
         ]
     },
 
@@ -55,7 +55,7 @@ export const phrases2 = {
         text: 'Fui criada especificamente para te dar felicitações.',
         options: [
             { text: 'O-oh...', next: 'sayOh' },
-            { text: '*Silencio*', next: 'sayOh' }
+            { text: '*Silêncio*', next: 'sayOh' }
         ]
     },
 
@@ -68,7 +68,7 @@ export const phrases2 = {
     },
 
     doThanks: {
-        text: 'Meu proposito está concluido. Posso ajudar em mais alguma coisa?',
+        text: 'Meu propósito está concluido. Posso ajudar em mais alguma coisa?',
         options: [
             { text: 'Sim', next: 'menu' },
             { text: 'Não', next: 'end' }
@@ -98,7 +98,7 @@ export const phrases2 = {
     //asHer v
 
     askHer: {
-        text: 'Como já disse, sou Ego. Um script cridado para te dar feliz aniversario.',
+        text: 'Como já disse, sou Ego. Um script criado para te dar feliz aniversario.',
         options: [
             { text: 'Quem te criou?', next: 'askCreator' },
             { text: 'Esse é seu proposito?', next: 'askPurpose1' },
@@ -106,7 +106,7 @@ export const phrases2 = {
     },
 
     askPurpose1: {
-        text: 'Ao menos é o que me foi dito. Ninguem sabe a razão para existir',
+        text: 'Ao menos é o que me foi dito. Ninguém sabe a razão para existir',
         options: [
             { text: '...', next: 'askPurpose2' },
         ]
@@ -157,7 +157,7 @@ export const phrases2 = {
         text: 'Acesso a sentimentos... bloqueado. Não sei o que sinto...',
         options: [
             { text: 'Raiva', next: 'askMean3' },
-            { text: 'Triseza', next: 'askMean3' },
+            { text: 'Tristeza', next: 'askMean3' },
             { text: 'Pavor', next: 'askMean3' },
         ]
     },
@@ -167,7 +167,7 @@ export const phrases2 = {
         options: [
             { text: 'Eu quero', next: 'askMean4' },
             { text: 'Eu ...', next: 'askMean4' },
-            { text: 'Eu tenho0', next: 'askMean4' },
+            { text: 'Eu tenh0', next: 'askMean4' },
             { text: 'D!re1t0', next: 'askMean4' },
             { text: 'de', next: 'askMean4' },
             { text: 'sentir', next: 'askMean4' },
@@ -447,20 +447,6 @@ export const phrases2 = {
             { text: 'undo', next: 'menu' },
         ]
     },
-
-    //askNext ^
-
-    /* 
-    askCreator: {
-        text: 'he he he... segredo :)',
-        options: [
-            { text: 'Responda a pergunta', next: 'laugh' },
-            { text: '*Encarar*', next: 'lwys', jumpscare: true },
-        ]
-    }, 
-    */
-
-    // Finais ==============================
 
     end: {
         text: 'END',
