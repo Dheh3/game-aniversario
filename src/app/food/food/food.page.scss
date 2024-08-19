@@ -1,11 +1,10 @@
 *{
     box-sizing: border-box;
-    
 }
 
 ion-header {
     box-shadow: none;
-    //border: red solid 1px;
+
     p {
         padding: 0;
         margin: 0;
@@ -35,7 +34,6 @@ ion-content {
     }
 
     ion-button{
-        //z-index: 999;
         width: 90px;
         height: 90px;
         max-width: 90px;
@@ -56,7 +54,6 @@ ion-content {
     }
 
     img{
-        //border: red solid 1px;
         width: 100vw;
         height: 100vh;
         border-bottom: #000000 50px solid;

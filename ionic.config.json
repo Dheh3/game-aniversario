@@ -1,5 +1,5 @@
 {
-  "name": "engine",
+  "name": "Engine",
   "integrations": {
     "capacitor": {}
   },

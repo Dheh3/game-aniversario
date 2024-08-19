@@ -28,8 +28,6 @@ export class StorePage implements OnInit {
     this.loadPurchaseState()
   }
 
-  //desativar em dev
-
   loadPurchaseState() {
     const keyPurchased = localStorage.getItem('keyPurchased');
     const docPurchased = localStorage.getItem('docPurchased');
@@ -63,7 +61,6 @@ export class StorePage implements OnInit {
       this.colorKey = "tertiary"
       this.cssBlaKey = 'bleKey'
 
-      //desativar em dev
       localStorage.setItem('keyPurchased', 'true')
 
     } else if (this.isKeyActive === false) {
@@ -82,7 +79,6 @@ export class StorePage implements OnInit {
       this.colorDoc = "tertiary"
       this.cssBlaDoc = 'ble'
 
-      //desativar em dev
       localStorage.setItem('docPurchased', 'true')
 
     } else if (this.isDocActive === false) {
@@ -109,7 +105,6 @@ export class StorePage implements OnInit {
   failure() {
     let randErros = this.errors[Math.floor(Math.random() * this.errors.length)]
     this.presentToast("error " + randErros);
-
   }
 
 }

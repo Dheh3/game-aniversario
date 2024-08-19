@@ -75,12 +75,10 @@ ion-content {
     justify-content: center;
     align-items: center;
     background-color: var(--ion-color-dark);
-    //animation: blinkJump 0.1s ease 0s infinite normal forwards;
     img {
         width: 100vw;
         max-height: 100vh;
         object-fit: cover;
-        //filter: invert(100%) grayscale(100%);
     }
 }
 ion-icon {

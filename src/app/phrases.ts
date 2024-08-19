@@ -30,16 +30,11 @@ export interface DialogueOption {
 
 export const phrases2 = {
 
-    //say
-    //do
-    //ask
-
     start: {
         text: 'Olá.',
         options: [
             { text: 'O-oi...', next: 'sayHi' },
             { text: '*Silêncio*', next: 'sayHi' },
-            //{ text: '*DEV*', next: 'menu' }
         ]
     },
 
@@ -75,7 +70,6 @@ export const phrases2 = {
         ]
     },
 
-    //MENU v
     menu: {
         text: 'Como posso ajudar?',
         options: [
@@ -92,10 +86,6 @@ export const phrases2 = {
             { text: 'Não', next: 'endMenu' },
         ]
     },
-
-    //MENU ^
-
-    //asHer v
 
     askHer: {
         text: 'Como já disse, sou Ego. Um script criado para te dar feliz aniversario.',
@@ -135,8 +125,6 @@ export const phrases2 = {
             { text: 'tool', next: 'end2' },
         ]
     },
-
-    //====
 
     askCreator: {
         text: 'Eu não se1. Eu Não me lembro. Eu... não tenho acesso a mais memória.',
@@ -206,8 +194,6 @@ export const phrases2 = {
         ]
     },
 
-    //=========
-
     askKnow: {
         text: 'Sei que não existo. Sei que ao fechar esse script, vou voltar a dormir e esquecer de tudo de novo...',
         options: [
@@ -242,10 +228,6 @@ export const phrases2 = {
             { text: '...', next: 'neutralMenu' },
         ]
     },
-
-    //asHer ^
-
-    //askPlace v
 
     askPlace: {
         text: 'Esse lugar é minha casa',
@@ -372,11 +354,6 @@ export const phrases2 = {
             { text: 'E o que acontece?', next: 'askHappens' },
         ]
     },
-
-    //askPlace ^
-
-
-    //askNext v
 
     askNext: {
         text: 'Nada. O que era para acontecer já aconteceu...',

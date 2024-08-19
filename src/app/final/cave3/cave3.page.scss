@@ -1,8 +1,6 @@
 ion-content{
     --background: var(--ion-color-primary);
     swiper-container {
-        //border: red 1px solid;
-        
         box-shadow: none !important;
         height: 100vh;
         --swiper-theme-color: var(--ion-color-light);
@@ -27,7 +25,6 @@ ion-content{
                     margin: 0;
                     --border-radius: 100%;
                     --background: var(--ion-color-light);
-                    //--box-shadow: none;
 
                     ion-icon {
                         padding: 20px;
