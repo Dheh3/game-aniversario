@@ -36,7 +36,7 @@ export const documents = [
     {
         id: 4,
         title: 'Purpose',
-        content: 'D3V4: As 18:41, foi observada um arquivo com o erro "purpose is missing". update << propósito: intenção (de fazer algo); projeto, desígnio.',
+        content: 'D3V4: As 18:41, foi observada um arquivo com o erro "purpose is missing". update << propósito: intenção (de fazer algo).',
         images: [
             '../assets/docs/new6.jpg'
         ],
@@ -151,7 +151,6 @@ export const documents = [
         title: 'Learning',
         content: 'D13V5: Aquele gato entrou nesse espaço. Não é um script. Senti uma curiosidade imediata. Ele é um ser independente, com comportamentos inesperados. Sinto falta de algo semelhante. Parece ser consciente, é interessante. update << após algum tempo, ele sumiu.',
         images: [
-            //'../assets/docs/learn.png',
             '../assets/docs/static.png'
         ],
         keys: ['friend', 'lonely', 'wish'],
