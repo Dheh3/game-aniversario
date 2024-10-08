@@ -82,7 +82,7 @@ export class GamesPage implements OnInit {
     if (this.playerScore > this.computerScore) {
       this.coinsService.addCoins(10);
       this.message = this.phraseService.getEndPhrase('gameEndWin');
-      this.presentToast('Você ganhou 2 moedas!')
+      this.presentToast('Você ganhou 10 moedas!')
     } else if (this.playerScore < this.computerScore) {
       this.message = this.phraseService.getEndPhrase('gameEndLose');
       this.presentToast('Você perdeu essa partida')
